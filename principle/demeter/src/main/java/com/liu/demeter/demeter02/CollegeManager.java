@@ -1,0 +1,35 @@
+package com.liu.demeter.demeter02;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * @author shidacaizi
+ * @date 2020/5/13 8:18
+ */
+/*
+ * 管理类
+ * */
+public class CollegeManager {
+    //    返回学院的所有员工
+    public List<CollegeEmployee> getAllEmployee() {
+        List<CollegeEmployee> employeeList = new ArrayList<>();
+        for (int i = 0; i < 10; i++) {
+            CollegeEmployee emp = new CollegeEmployee();
+            emp.setId("学院员工ID=" + i);
+            employeeList.add(emp);
+        }
+        return employeeList;
+    }
+
+    public void printEmployee() {
+//        获取学院员工
+//        将输出学院员工的方法封装到CollegeEmployee
+        List<CollegeEmployee> list1 = getAllEmployee();
+        System.out.println("---------学院员工--------");
+        list1.forEach(collegeEmployee -> {
+            System.out.println(collegeEmployee.getId());
+        });
+    }
+}
+
