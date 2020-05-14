@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.liu.generalization.clsss.DaoSupport</OriginalElement>
+  <nodes>
+    <node x="31.5" y="0.0">com.liu.generalization.clsss.DaoSupport</node>
+    <node x="0.0" y="82.0">com.liu.generalization.clsss.PersonServiceBean</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.liu.generalization.clsss.PersonServiceBean" target="com.liu.generalization.clsss.DaoSupport">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.3923076923076925" x="151.24309392265192" y="27.90055248618782" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

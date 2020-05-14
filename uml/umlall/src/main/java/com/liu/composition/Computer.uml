@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.liu.composition.clsss.Computer</OriginalElement>
+  <nodes>
+    <node x="54.33333333333333" y="92.0">com.liu.composition.clsss.Computer</node>
+    <node x="10.833333333333343" y="0.0">com.liu.composition.clsss.Mouse</node>
+    <node x="121.83333333333334" y="0.0">com.liu.composition.clsss.Moniter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.liu.composition.clsss.Computer" target="com.liu.composition.clsss.Mouse">
+      <point x="-49.16666666666667" y="-16.0" />
+      <point x="64.16666666666666" y="72.0" />
+      <point x="26.0" y="72.0" />
+      <point x="-30.333333333333343" y="16.0" />
+    </edge>
+    <edge source="com.liu.composition.clsss.Computer" target="com.liu.composition.clsss.Moniter">
+      <point x="29.5" y="-16.0" />
+      <point x="142.83333333333331" y="62.0" />
+      <point x="176.33333333333334" y="62.0" />
+      <point x="7.105427357601002E-15" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.917391304347826" x="292.13369708072804" y="201.78888048110235" />
+  <SelectedNodes>
+    <node>com.liu.composition.clsss.Mouse</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

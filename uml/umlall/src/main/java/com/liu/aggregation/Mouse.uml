@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.liu.aggregation.clsss.Mouse</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">com.liu.aggregation.clsss.Moniter</node>
+    <node x="57.75" y="82.0">com.liu.aggregation.clsss.Computer</node>
+    <node x="129.0" y="0.0">com.liu.aggregation.clsss.Mouse</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.liu.aggregation.clsss.Computer" target="com.liu.aggregation.clsss.Moniter">
+      <point x="-44.25" y="-16.0" />
+      <point x="72.5" y="57.0" />
+      <point x="27.25" y="57.0" />
+      <point x="-27.25" y="16.0" />
+    </edge>
+    <edge source="com.liu.aggregation.clsss.Computer" target="com.liu.aggregation.clsss.Mouse">
+      <point x="44.25" y="-16.0" />
+      <point x="161.0" y="57.0" />
+      <point x="197.25" y="57.0" />
+      <point x="22.75" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7702702702702702" x="297.0232031692134" y="74.4165429823351" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

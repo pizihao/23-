@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/liskovsubstitution/pom.xml" />
         <option value="$PROJECT_DIR$/openclosed/pom.xml" />
         <option value="$PROJECT_DIR$/demeter/pom.xml" />
+        <option value="$PROJECT_DIR$/dependency/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.liu.implementation.clsss.PersonService</OriginalElement>
+  <nodes>
+    <node x="18.0" y="0.0">com.liu.implementation.clsss.PersonService</node>
+    <node x="0.0" y="82.0">com.liu.implementation.clsss.PersonServiceBean</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.liu.implementation.clsss.PersonServiceBean" target="com.liu.implementation.clsss.PersonService">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.16393442622950818" x="1359.45" y="16.0" />
+  <SelectedNodes>
+    <node>com.liu.implementation.clsss.PersonServiceBean</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

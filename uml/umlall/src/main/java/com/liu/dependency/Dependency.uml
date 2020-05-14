@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.liu.dependency.Dependency</OriginalElement>
+  <nodes>
+    <node x="115.50000000000003" y="164.0">com.liu.dependency.PersonServiceBean</node>
+    <node x="0.0" y="82.0">com.liu.dependency.PersonDao</node>
+    <node x="146.99999999999997" y="82.0">com.liu.dependency.Dependency</node>
+    <node x="303.0" y="82.0">com.liu.dependency.IdCard</node>
+    <node x="333.25" y="0.0">com.liu.dependency.Person</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.liu.dependency.PersonServiceBean" target="com.liu.dependency.IdCard">
+      <point x="49.74999999999997" y="-51.5" />
+      <point x="264.75" y="134.0" />
+      <point x="353.0" y="134.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="com.liu.dependency.PersonServiceBean" target="com.liu.dependency.Person">
+      <point x="82.9166666666666" y="-51.5" />
+      <point x="297.91666666666663" y="144.0" />
+      <point x="413.5" y="144.0" />
+      <point x="413.5" y="57.0" />
+      <point x="408.25" y="57.0" />
+      <point x="25.0" y="16.0" />
+    </edge>
+    <edge source="com.liu.dependency.PersonServiceBean" target="com.liu.dependency.PersonDao">
+      <point x="-49.75000000000003" y="-51.5" />
+      <point x="165.25" y="134.0" />
+      <point x="95.25" y="134.0" />
+      <point x="31.75" y="16.0" />
+    </edge>
+    <edge source="com.liu.dependency.IdCard" target="com.liu.dependency.Person">
+      <point x="0.0" y="-16.0" />
+      <point x="353.0" y="57.0" />
+      <point x="358.25" y="57.0" />
+      <point x="-25.0" y="16.0" />
+    </edge>
+    <edge source="com.liu.dependency.PersonServiceBean" target="com.liu.dependency.Dependency">
+      <point x="16.583333333333286" y="-51.5" />
+      <point x="231.58333333333331" y="144.0" />
+      <point x="248.99999999999997" y="144.0" />
+      <point x="34.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="217.0" y="133.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All Changed Files</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

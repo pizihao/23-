@@ -2,17 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5531c6de-4e37-41f0-9750-34e41562756e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principle/demeter/src/main/java/com/liu/demeter/demeter01/CollegeEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principle/demeter/src/main/java/com/liu/demeter/demeter01/CollegeManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principle/demeter/src/main/java/com/liu/demeter/demeter01/Demeter_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principle/demeter/src/main/java/com/liu/demeter/demeter01/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principle/demeter/src/main/java/com/liu/demeter/demeter01/SchoolManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principle/demeter/src/main/java/com/liu/demeter/demeter02/CollegeEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principle/demeter/src/main/java/com/liu/demeter/demeter02/CollegeManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principle/demeter/src/main/java/com/liu/demeter/demeter02/Demeter_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principle/demeter/src/main/java/com/liu/demeter/demeter02/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principle/demeter/src/main/java/com/liu/demeter/demeter02/SchoolManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/umlall/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/umlall/src/main/java/com/liu/aggregation/clsss/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/umlall/src/main/java/com/liu/aggregation/clsss/Moniter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/umlall/src/main/java/com/liu/aggregation/clsss/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/umlall/src/main/java/com/liu/composition/clsss/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/umlall/src/main/java/com/liu/composition/clsss/Moniter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/umlall/src/main/java/com/liu/composition/clsss/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/umlall/src/main/java/com/liu/dependency/clsss/Dependency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/umlall/src/main/java/com/liu/dependency/clsss/IdCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/umlall/src/main/java/com/liu/dependency/clsss/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/umlall/src/main/java/com/liu/dependency/clsss/PersonDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/umlall/src/main/java/com/liu/dependency/clsss/PersonServiceBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/umlall/src/main/java/com/liu/generalization/clsss/DaoSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/umlall/src/main/java/com/liu/generalization/clsss/PersonServiceBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/umlall/src/main/java/com/liu/implementation/clsss/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/umlall/src/main/java/com/liu/implementation/clsss/PersonServiceBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="UML Object" />
+        <option value="UML Class" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -53,30 +61,35 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/principle/demeter/src/main/java/com/liu/demeter/demeter02" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/uml/umlall/src/main/java/com/liu/composition" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.33923304" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.liu.demeter.demeter01" />
-      <recent name="com.liu.dependenceinversion.dependence01" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideawenjain\DesignPattern\uml\dependency\src\main\java\com\liu\dependency" />
+      <recent name="D:\ideawenjain\DesignPattern\uml" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideawenjain\DesignPattern\uml\umlall\src\main\java\com\liu\composition\clsss" />
       <recent name="D:\ideawenjain\DesignPattern\principle\demeter\src\main\java\com\liu\demeter\demeter02" />
       <recent name="D:\ideawenjain\DesignPattern\openclosed\src\main\java\com\liu\openclosed\ocp02" />
       <recent name="D:\ideawenjain\DesignPattern\liskovsubstitution" />
       <recent name="D:\ideawenjain\DesignPattern\liskovsubstitution\src\main\java\com\liu\liskov\liskov02" />
-      <recent name="D:\ideawenjain\DesignPattern\dependenceinversion" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.liu.demeter.demeter01" />
+      <recent name="com.liu.dependenceinversion.dependence01" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Demeter_02">
@@ -183,7 +196,11 @@
       <workItem from="1589275552000" duration="12882000" />
       <workItem from="1589328094951" duration="719000" />
       <workItem from="1589328861308" duration="1464000" />
-      <workItem from="1589330416415" duration="1491000" />
+      <workItem from="1589330416415" duration="2213000" />
+      <workItem from="1589347181832" duration="941000" />
+      <workItem from="1589357003417" duration="1701000" />
+      <workItem from="1589363290113" duration="606000" />
+      <workItem from="1589363945290" duration="7473000" />
     </task>
     <servers />
   </component>
@@ -191,41 +208,61 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="25" key="#Project_Structure" timestamp="1589280880555">
+    <state x="275" y="25" key="#Project_Structure" timestamp="1589369498255">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="25" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1589280880555" />
-    <state x="929" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1589329716488">
+    <state x="275" y="25" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1589369498255" />
+    <state x="929" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1589375169437">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="929" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1589329716488" />
-    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1589328918629">
+    <state x="929" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1589375169437" />
+    <state x="777" y="154" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1589369561436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589328918629" />
-    <state width="567" height="101" key="GridCell.Tab.0.bottom" timestamp="1589331301947">
+    <state x="777" y="154" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1589369561436" />
+    <state x="611" y="301" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589376127890">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="567" height="101" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589331301947" />
-    <state width="567" height="101" key="GridCell.Tab.0.center" timestamp="1589331301947">
+    <state x="611" y="301" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1589376127890" />
+    <state x="401" y="246" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589370069444">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="567" height="101" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589331301947" />
-    <state width="567" height="101" key="GridCell.Tab.0.left" timestamp="1589331301947">
+    <state x="401" y="246" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1589370069444" />
+    <state x="956" y="110" width="309" height="528" key="DiffContextDialog" timestamp="1589369532825">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="567" height="101" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589331301947" />
-    <state width="567" height="101" key="GridCell.Tab.0.right" timestamp="1589331301947">
+    <state x="956" y="110" width="309" height="528" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1589369532825" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1589376237899">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="567" height="101" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589331301947" />
-    <state x="186" y="0" key="SettingsEditor" timestamp="1589328922715">
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589376237899" />
+    <state width="567" height="101" key="GridCell.Tab.0.bottom" timestamp="1589335993188">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589328922715" />
-    <state x="51" y="97" key="new project wizard" timestamp="1589328805730">
+    <state width="567" height="101" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589335993188" />
+    <state width="567" height="101" key="GridCell.Tab.0.center" timestamp="1589335993188">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="51" y="97" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1589328805730" />
+    <state width="567" height="101" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589335993188" />
+    <state width="567" height="101" key="GridCell.Tab.0.left" timestamp="1589335993187">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="567" height="101" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589335993187" />
+    <state width="567" height="101" key="GridCell.Tab.0.right" timestamp="1589335993188">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="567" height="101" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589335993188" />
+    <state x="186" y="0" key="SettingsEditor" timestamp="1589364150485">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589364150485" />
+    <state x="847" y="154" key="chooseDestDirectoryDialog" timestamp="1589369570892">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="847" y="154" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1589369570892" />
+    <state x="51" y="97" key="new project wizard" timestamp="1589369239811">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="51" y="97" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1589369239811" />
   </component>
 </project>

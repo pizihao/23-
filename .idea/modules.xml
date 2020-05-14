@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/principle/openclosed/openclosed.iml" filepath="$PROJECT_DIR$/principle/openclosed/openclosed.iml" />
       <module fileurl="file://$PROJECT_DIR$/principle/segregationprinciple/segregationprinciple.iml" filepath="$PROJECT_DIR$/principle/segregationprinciple/segregationprinciple.iml" />
       <module fileurl="file://$PROJECT_DIR$/principle/singleresponsibility/singleresponsibility.iml" filepath="$PROJECT_DIR$/principle/singleresponsibility/singleresponsibility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uml/umlall/umlall.iml" filepath="$PROJECT_DIR$/uml/umlall/umlall.iml" />
     </modules>
   </component>
 </project>
