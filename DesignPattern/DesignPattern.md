@@ -169,3 +169,242 @@
 1. 创建型模式:单例模式、抽急工厂模式、原型模式、建造者模式、工厂模式。
 2. 结构型程式:适配器模式、桥接模式、装饰模式、组合模式、外观模式、享元模式、代理模式。
 3. 行为型模式:模版方法模式、命令模式、访问者模式、迭代器模式、观察者模式、中介者模式、备忘录模式、解释器模式(Interpreter模式)、状态模式、策略模式、职责链模式(责任链模式)。.
+
+### 1，单例模式(singleton)
+
+> 介绍
+
+所谓类的单例模式，就是采取一定的方法保证在整个软件系统中，对某个类只能存在一个对象的实例，并且该类只提供一个取得其对象实例的方法
+
+> 举例
+
+比如Hibernate的SessionFactory,它充当数据存储源的代理，并负责创建Session对象，SessionFactory并不是轻量级的，一般情况下，一个项目通常只需要一个SessionFactory就够，这时就会使用到单例模式。
+
+> 代码
+
+#### (1)，饿汉式(静态变量)
+
+~~~java
+//饿汉式(静态变量)
+class Singleton {
+    // 1，构造器私有化,外部不能new了
+    private Singleton(){}
+    // 2，在本类内部创建对象实例
+    private final static Singleton instance = new Singleton();
+    // 3，提供一个公有的静态方法，返回实例对象
+    public static Singleton getInstance(){
+        return instance;
+    }
+}
+~~~
+
+> 测试
+
+~~~java
+public class Singleton_01 {
+    public static void main(String[] args) {
+//        测试
+        Singleton singleton = Singleton.getInstance();
+        Singleton singleton1 = Singleton.getInstance();
+        System.out.println(singleton == singleton1);
+    }
+}
+~~~
+
+> 结果
+
+~~~java
+true
+~~~
+
+> 优缺点：
+
+- 优点:这种写法比较简单，就是在类装载助时候就完成实例化。避免了线程同步问题。
+- 缺点:在类装载的时候就完成实例化，没有达到Lazy Loading的效果。如果从始至终从未使用过这个实例，则会造成内存的浪费
+- 这种方式基于classloder机制避免了多线程的同步问题不过，instance在类装 载时就实例化，在单例模式中大多数都是调用getInstance方法，但是导致类装载的原因有很多种，因此不能确定有其他的方式(或者其他的静态方法)导致类装载，这时候初始化instance就没有达到lazy loading的效果
+- 结论:这种单例模式可用，可能造成内存浪费
+
+#### (2)，饿汉式(静态代码块)
+
+~~~java
+//饿汉式(静态代码块)
+class Singleton {
+    // 1，构造器私有化,外部不能new了
+    private Singleton(){}
+    // 2，在本类内部创建对象实例
+    private  static Singleton instance;
+    //在静态代码块中创建单例对象
+    static {
+        instance = new Singleton();
+    }
+    // 3，提供一个公有的静态方法，返回实例对象
+    public static Singleton getInstance(){
+        return instance;
+    }
+}
+~~~
+
+> 优缺点
+
+- 这种方式和上面的方式其实类似，只不过将类实例化的过程放在了静态代码块中，也是在类装载的时候，就执行静态代码块中的代码，初始化类的实例。
+- 优缺点和上面是一样的。
+- 结论:这种单例模式可用，但是可能造成内存浪费
+
+#### (3)，懒汉式(线程不安全)
+
+~~~java
+//懒汉式(线程不安全)
+class Singleton {
+    //静态私有声明
+    private static Singleton singleton;
+    //私有构造器
+    private Singleton(){}
+    //当调用的时候才会创建实例对象
+    public static Singleton getInstance() {
+        if (singleton == null) {
+            singleton =  new Singleton();
+        }
+        return singleton;
+    }
+}
+~~~
+
+> 优缺点
+
+- 起到了Lazy Loading的效果，但是只能在单线程下使用。
+- 如果在多线程下，一个线程进入了if (singleton -- null判断语句块，还未来得及往下执行，另一个线程也通过了这个判断语句，这时便会产生多个实例。所以在多线程环境下不可使用这种方式
+- 结论:在实际开发中，不要使用这种方式.
+
+#### (4)，懒汉式(线程安全，同步方法)
+
+~~~java
+//懒汉式(线程安全,同步方法)
+class Singleton {
+    //静态私有声明
+    private static Singleton singleton;
+    //私有构造器
+    private Singleton(){}
+    //当调用的时候才会创建实例对象，
+    //使用synchronized关键字上锁，线程同步
+    public static synchronized Singleton getInstance() {
+        if (singleton == null) {
+            singleton =  new Singleton();
+        }
+        return singleton;
+    }
+}
+~~~
+
+> 优缺点
+
+- 解决了线程不安全问题
+- 效率太低了，每个线程在想获得类的实例时候，执行getInstance()方法 都要进行同步。而其实这个方法只执行一次实例化代码就够了，后面的想获得该类实例，直接return就行了。方法进行同步效率太低
+- 结论:在实际开发中，不推荐使用这种方式
+
+#### (4)，懒汉式(线程安全，同步代码块)
+
+~~~java
+//懒汉式(线程安全,同步代码块)
+class Singleton {
+    //静态私有声明
+    private static Singleton singleton;
+    //私有构造器
+    private Singleton(){}
+    //当调用的时候才会创建实例对象，
+    //使用synchronized关键字上锁，线程同步
+    public static Singleton getInstance() {
+        if (singleton == null) {
+            synchronized(Singleton.class){
+                singleton =  new Singleton();
+            }
+        }
+        return singleton;
+    }
+}
+~~~
+
+> 优缺点
+
+- 这种方式，本意是想对第四种实现方式的改进，因为前面同步方法效率太低，改为同步产生实例化的的代码块
+- 但是这种同步并不能起到线程同步的作用。跟第3种实现方式遇到的情形一致，假如一个线程进入了if (singleton == null)判断语句块，还未来得及往下执行，另一个线程也通过了这个判断语句，这时便会产生多个实例
+- 结论:在实际开发中，不能使用这种方式
+
+#### (6)，双重检查
+
+~~~java
+//双重检查
+class Singleton {
+    //静态私有声明，使用volatile关键字
+    private static volatile Singleton singleton;
+    //私有构造器
+    private Singleton(){}
+    //当调用的时候才会创建实例对象，
+    //使用synchronized关键字上锁，线程同步，双重检查
+    public static Singleton getInstance() {
+        if (singleton == null) {
+            synchronized(Singleton.class){
+                if (singleton == null) {
+                    singleton =  new Singleton();
+                }
+            }
+        }
+        return singleton;
+    }
+}
+~~~
+
+> 优缺点
+
+- Double-Check概念是多线程开发中 常使用到的，如代码中所示，我们进行了两次(singleton == null)检查，这样就可以保证线程安全了。
+- 这样，实例化代码只用执行一次，后面再次访问时，判断if (singleton = null),直接return实例化对象，也避免的反复进行方法同步.
+- 线程安全;延迟加载:效率较高
+- 结论:在实际开发中，推荐使用这种单例设计模式
+
+#### (7)，静态内部类
+
+~~~java
+
+~~~
+
+> 优缺点
+
+- 这种方式采用了类装载的机制来保证初始化实例时只有一个线程。
+- 静态内部英万式在Singleton类被装载时并不会立即实例化，而是在需要实例化时，调用getInstance万法， 才会装载SingletonInstance类，从而完成Singleton的实例化。
+- 类的静态属性只会在第一次加载类的时候初始化，所以在这里，JVM帮助我们保证了线程的安全性，在类进行初始化时，别的线程是无法进入的。
+- 优点:避免了线程不安全，利用静态内部类特点实现延迟加载，效率高
+-  结论:推荐使用。
+
+#### (8)，枚举
+
+~~~java
+//枚举
+enum Singleton {
+    INSTANCE;
+    public void sayOK(){
+        System.out.println("ok");
+    }
+}
+~~~
+
+> 优点
+
+- 这借助JDK1.5中添加的故举来实现单例模式。不仅能避免多线程同步问题，而且还能防止反序列化重新创建新的对象。
+- 这种方式是Effective Java作者Josh Bloch提倡的方式
+- 结论:推荐使用
+
+(9)，jdk源码中的单例模式
+
+Runtime类
+
+~~~java
+    private static Runtime currentRuntime = new Runtime();
+    public static Runtime getRuntime() {
+        return currentRuntime;
+    }
+    private Runtime() {}
+~~~
+
+使用的是饿汉式
+
+### 2，工厂模式
+
