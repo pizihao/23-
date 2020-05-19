@@ -2,16 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5531c6de-4e37-41f0-9750-34e41562756e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/creationalpattern/singleton/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalpattern/singleton/src/main/java/com/liu/singleton/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalpattern/singleton/src/main/java/com/liu/singleton/type01/Singleton_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalpattern/singleton/src/main/java/com/liu/singleton/type02/Singleton_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalpattern/singleton/src/main/java/com/liu/singleton/type03/Singleton_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalpattern/singleton/src/main/java/com/liu/singleton/type04/Singleton_04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalpattern/singleton/src/main/java/com/liu/singleton/type05/Singleton_05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalpattern/singleton/src/main/java/com/liu/singleton/type06/Singleton_06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalpattern/singleton/src/main/java/com/liu/singleton/type07/Singleton_07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalpattern/singleton/src/main/java/com/liu/singleton/type08/Singleton_08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/abstractfactory/order/AbsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/abstractfactory/order/BJFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/abstractfactory/order/LDFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/abstractfactory/order/OrderPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/abstractfactory/order/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/abstractfactory/pizza/BJCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/abstractfactory/pizza/BJPepperPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/abstractfactory/pizza/LDCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/abstractfactory/pizza/LDPepperPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/abstractfactory/pizza/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/factorymethon/BJOrderPizza.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/factorymethon/order/BJOrderPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/factorymethon/order/LDOrderPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/factorymethon/order/OrderPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/factorymethon/order/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/factorymethon/pizza/BJCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/factorymethon/pizza/BJPepperPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/factorymethon/pizza/LDCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/factorymethon/pizza/LDPepperPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/factorymethon/pizza/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/simplefactory/order/BJOrderPizza.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/simplefactory/order/OrderPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/simplefactory/order/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/simplefactory/order/SimpleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/simplefactory/pizza/CheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/simplefactory/pizza/GreekPizz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/simplefactory/pizza/Pizza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +78,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/creationalpattern/singleton/src/main/java/com/liu/singleton/type08" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/creationalpattern/factory/src/main/java/com/liu/factory/abstractfactory/pizza" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33923304" />
@@ -75,24 +93,27 @@
       <recent name="com.liu.dependenceinversion.dependence01" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideawenjain\DesignPattern\creationalpattern\factory\src\main\java\com\liu\factory\abstractfactory\pizza" />
+      <recent name="D:\ideawenjain\DesignPattern\creationalpattern\factory\src\main\java\com\liu\factory\factorymethon" />
       <recent name="D:\ideawenjain\DesignPattern\creationalpattern\singleton\src\main\java\com\liu\singleton\type08" />
       <recent name="D:\ideawenjain\DesignPattern\creationalpattern\singleton\src\main\java\com\liu\singleton\type07" />
       <recent name="D:\ideawenjain\DesignPattern\creationalpattern\singleton\src\main\java\com\liu\singleton\type06" />
-      <recent name="D:\ideawenjain\DesignPattern\creationalpattern\singleton\src\main\java\com\liu\singleton\type05" />
-      <recent name="D:\ideawenjain\DesignPattern\creationalpattern\singleton\src\main\java\com\liu\singleton\type04" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.liu.factory.factorymethon.order" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ideawenjain\DesignPattern\uml\dependency\src\main\java\com\liu\dependency" />
       <recent name="D:\ideawenjain\DesignPattern\uml" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Singleton_02">
-    <configuration name="Demeter_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.demeter.demeter02.Demeter_02" />
-      <module name="demeter" />
+  <component name="RunManager" selected="Application.PizzaStore (2)">
+    <configuration name="PizzaStore (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.factory.factorymethon.order.PizzaStore" />
+      <module name="factory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liu.demeter.demeter02.*" />
+          <option name="PATTERN" value="com.liu.factory.factorymethon.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ocp_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.openclosed.ocp01.Ocp_01" />
-      <module name="openclosed" />
+    <configuration name="PizzaStore (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.factory.abstractfactory.order.PizzaStore" />
+      <module name="factory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liu.openclosed.ocp01.*" />
+          <option name="PATTERN" value="com.liu.factory.abstractfactory.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ocp_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.openclosed.ocp02.Ocp_02" />
-      <module name="openclosed" />
+    <configuration name="PizzaStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.factory.simplefactory.order.PizzaStore" />
+      <module name="factory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liu.openclosed.ocp02.*" />
+          <option name="PATTERN" value="com.liu.factory.simplefactory.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PizzaStore (2)" />
+        <item itemvalue="Application.PizzaStore (1)" />
+        <item itemvalue="Application.PizzaStore" />
         <item itemvalue="Application.Singleton_02" />
         <item itemvalue="Application.Singleton_01" />
-        <item itemvalue="Application.Demeter_02" />
-        <item itemvalue="Application.Ocp_02" />
-        <item itemvalue="Application.Ocp_01" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +216,10 @@
       <workItem from="1589357003417" duration="1701000" />
       <workItem from="1589363290113" duration="606000" />
       <workItem from="1589363945290" duration="7473000" />
-      <workItem from="1589415330800" duration="9314000" />
+      <workItem from="1589415330800" duration="14032000" />
+      <workItem from="1589439593588" duration="620000" />
+      <workItem from="1589868464210" duration="5326000" />
+      <workItem from="1589888779598" duration="6382000" />
     </task>
     <servers />
   </component>
@@ -203,22 +227,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="25" key="#Project_Structure" timestamp="1589369498255">
+    <state x="275" y="25" key="#Project_Structure" timestamp="1589430377064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="25" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1589369498255" />
-    <state x="929" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1589375169437">
+    <state x="275" y="25" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1589430377064" />
+    <state x="929" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1589896284340">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="929" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1589375169437" />
+    <state x="929" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1589896284340" />
     <state x="777" y="154" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1589369561436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="777" y="154" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1589369561436" />
-    <state x="611" y="301" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589376127890">
+    <state x="837" y="66" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1589428521523">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="611" y="301" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1589376127890" />
+    <state x="837" y="66" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1366.728@0.0.1366.728" timestamp="1589428521523" />
+    <state x="440" y="301" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589871185987">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="440" y="301" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1589871185987" />
     <state x="401" y="246" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589370069444">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -227,26 +255,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="956" y="110" width="309" height="528" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1589369532825" />
-    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1589376237899">
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1589893137674">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589376237899" />
-    <state width="470" height="103" key="GridCell.Tab.0.bottom" timestamp="1589421685981">
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589893137674" />
+    <state width="531" height="306" key="GridCell.Tab.0.bottom" timestamp="1589899427544">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="470" height="103" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589421685981" />
-    <state width="470" height="103" key="GridCell.Tab.0.center" timestamp="1589421685981">
+    <state width="531" height="306" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589899427544" />
+    <state width="531" height="306" key="GridCell.Tab.0.center" timestamp="1589899427543">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="470" height="103" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589421685981" />
-    <state width="470" height="103" key="GridCell.Tab.0.left" timestamp="1589421685981">
+    <state width="531" height="306" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589899427543" />
+    <state width="531" height="306" key="GridCell.Tab.0.left" timestamp="1589899427543">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="470" height="103" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589421685981" />
-    <state width="470" height="103" key="GridCell.Tab.0.right" timestamp="1589421685981">
+    <state width="531" height="306" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589899427543" />
+    <state width="531" height="306" key="GridCell.Tab.0.right" timestamp="1589899427544">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="470" height="103" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589421685981" />
+    <state width="531" height="306" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589899427544" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1589426658310">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -255,9 +283,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="847" y="154" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1589369570892" />
-    <state x="74" y="114" key="new project wizard" timestamp="1589417056198">
+    <state x="62" y="94" key="new project wizard" timestamp="1589428458776">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="74" y="114" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1589417056198" />
+    <state x="62" y="94" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1589428458776" />
+    <state x="590" y="57" width="672" height="678" key="search.everywhere.popup" timestamp="1589895775326">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="590" y="57" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589895775326" />
   </component>
 </project>

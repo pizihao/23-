@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="singleton" />
         <module name="umlall" />
+        <module name="factory" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demeter" target="1.8" />
       <module name="dependenceinversion" target="1.8" />
+      <module name="factory" target="1.8" />
       <module name="liskovsubstitution" target="1.8" />
       <module name="openclosed" target="1.8" />
       <module name="segregationprinciple" target="1.8" />
