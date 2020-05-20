@@ -9,6 +9,7 @@
         <module name="singleton" />
         <module name="umlall" />
         <module name="factory" />
+        <module name="prototype" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,7 @@
       <module name="factory" target="1.8" />
       <module name="liskovsubstitution" target="1.8" />
       <module name="openclosed" target="1.8" />
+      <module name="prototype" target="1.8" />
       <module name="segregationprinciple" target="1.8" />
       <module name="singleresponsibility" target="1.8" />
       <module name="singleton" target="1.8" />

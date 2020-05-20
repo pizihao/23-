@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/creationalpattern/factory/factory.iml" filepath="$PROJECT_DIR$/creationalpattern/factory/factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/principle/liskovsubstitution/liskovsubstitution.iml" filepath="$PROJECT_DIR$/principle/liskovsubstitution/liskovsubstitution.iml" />
       <module fileurl="file://$PROJECT_DIR$/principle/openclosed/openclosed.iml" filepath="$PROJECT_DIR$/principle/openclosed/openclosed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/creationalpattern/prototype/prototype.iml" filepath="$PROJECT_DIR$/creationalpattern/prototype/prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/principle/segregationprinciple/segregationprinciple.iml" filepath="$PROJECT_DIR$/principle/segregationprinciple/segregationprinciple.iml" />
       <module fileurl="file://$PROJECT_DIR$/principle/singleresponsibility/singleresponsibility.iml" filepath="$PROJECT_DIR$/principle/singleresponsibility/singleresponsibility.iml" />
       <module fileurl="file://$PROJECT_DIR$/creationalpattern/singleton/singleton.iml" filepath="$PROJECT_DIR$/creationalpattern/singleton/singleton.iml" />
