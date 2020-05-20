@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5531c6de-4e37-41f0-9750-34e41562756e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/creationalpattern/prototype/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/prototype/src/main/java/com/liu/prototype/deepclone/DeepCloneableTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/prototype/src/main/java/com/liu/prototype/deepclone/DeepProtoType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/prototype/src/main/java/com/liu/prototype/imporve/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/prototype/src/main/java/com/liu/prototype/imporve/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/prototype/src/main/java/com/liu/prototype/old/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalpattern/prototype/src/main/java/com/liu/prototype/old/Sheep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +60,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33923304" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
@@ -74,6 +80,7 @@
       <recent name="D:\ideawenjain\DesignPattern\creationalpattern\singleton\src\main\java\com\liu\singleton\type06" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.liu.prototype.imporve" />
       <recent name="com.liu.factory.factorymethon.order" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -81,7 +88,33 @@
       <recent name="com.liu.dependenceinversion.dependence01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PizzaStore (2)">
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.prototype.imporve.Client" />
+      <module name="prototype" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liu.prototype.imporve.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.prototype.old.Client" />
+      <module name="prototype" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liu.prototype.old.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PizzaStore (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liu.factory.factorymethon.order.PizzaStore" />
       <module name="factory" />
@@ -121,39 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Singleton_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.singleton.type01.Singleton_01" />
-      <module name="singleton" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liu.singleton.type01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Singleton_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.singleton.type02.Singleton_02" />
-      <module name="singleton" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liu.singleton.type02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.PizzaStore (2)" />
         <item itemvalue="Application.PizzaStore (1)" />
         <item itemvalue="Application.PizzaStore" />
-        <item itemvalue="Application.Singleton_02" />
-        <item itemvalue="Application.Singleton_01" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +201,7 @@
       <workItem from="1589439593588" duration="620000" />
       <workItem from="1589868464210" duration="5326000" />
       <workItem from="1589888779598" duration="6382000" />
-      <workItem from="1589932168980" duration="2806000" />
+      <workItem from="1589932168980" duration="8600000" />
     </task>
     <servers />
   </component>
@@ -206,10 +213,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="25" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1589430377064" />
-    <state x="929" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1589896284340">
+    <state x="880" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1589957473076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="929" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1589896284340" />
+    <state x="880" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1589957473076" />
     <state x="777" y="154" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1589369561436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -222,10 +229,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="440" y="301" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1589871185987" />
-    <state x="401" y="246" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589370069444">
+    <state x="401" y="246" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589947480564">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="401" y="246" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1589370069444" />
+    <state x="401" y="246" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1589947480564" />
     <state x="956" y="110" width="309" height="528" key="DiffContextDialog" timestamp="1589369532825">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -234,22 +241,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589893137674" />
-    <state width="531" height="306" key="GridCell.Tab.0.bottom" timestamp="1589899427544">
+    <state width="531" height="399" key="GridCell.Tab.0.bottom" timestamp="1589955838807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="531" height="306" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589899427544" />
-    <state width="531" height="306" key="GridCell.Tab.0.center" timestamp="1589899427543">
+    <state width="531" height="399" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589955838807" />
+    <state width="531" height="399" key="GridCell.Tab.0.center" timestamp="1589955838806">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="531" height="306" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589899427543" />
-    <state width="531" height="306" key="GridCell.Tab.0.left" timestamp="1589899427543">
+    <state width="531" height="399" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589955838806" />
+    <state width="531" height="399" key="GridCell.Tab.0.left" timestamp="1589955838805">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="531" height="306" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589899427543" />
-    <state width="531" height="306" key="GridCell.Tab.0.right" timestamp="1589899427544">
+    <state width="531" height="399" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589955838805" />
+    <state width="531" height="399" key="GridCell.Tab.0.right" timestamp="1589955838806">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="531" height="306" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589899427544" />
+    <state width="531" height="399" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589955838806" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1589426658310">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -258,13 +265,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="847" y="154" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1589369570892" />
+    <state x="904" y="85" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589952854351">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="904" y="85" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1589952854351" />
     <state x="53" y="135" key="new project wizard" timestamp="1589932342647">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="53" y="135" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1589932342647" />
-    <state x="590" y="57" width="672" height="678" key="search.everywhere.popup" timestamp="1589895775326">
+    <state x="590" y="57" width="672" height="678" key="search.everywhere.popup" timestamp="1589956146329">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="590" y="57" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589895775326" />
+    <state x="590" y="57" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589956146329" />
   </component>
 </project>
