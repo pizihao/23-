@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5531c6de-4e37-41f0-9750-34e41562756e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/creationalpattern/build/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalpattern/build/src/main/java/com/liu/build/AbstractHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalpattern/build/src/main/java/com/liu/build/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalpattern/build/src/main/java/com/liu/build/CommonHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalpattern/build/src/main/java/com/liu/build/HighBuilding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalpattern/build/src/main/java/com/liu/build/improve/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalpattern/build/src/main/java/com/liu/build/improve/CommonHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalpattern/build/src/main/java/com/liu/build/improve/HighBuilding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalpattern/build/src/main/java/com/liu/build/improve/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalpattern/build/src/main/java/com/liu/build/improve/HouseBuild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalpattern/build/src/main/java/com/liu/build/improve/HouseDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralpattern/adapter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralpattern/adapter/src/main/java/com/liu/adapter/classadapter/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralpattern/adapter/src/main/java/com/liu/adapter/classadapter/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralpattern/adapter/src/main/java/com/liu/adapter/classadapter/Voltage220V.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralpattern/adapter/src/main/java/com/liu/adapter/classadapter/Voltage5V.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralpattern/adapter/src/main/java/com/liu/adapter/classadapter/VoltageAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralpattern/adapter/src/main/java/com/liu/adapter/interfaceadapter/AbsAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralpattern/adapter/src/main/java/com/liu/adapter/interfaceadapter/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralpattern/adapter/src/main/java/com/liu/adapter/interfaceadapter/Interface4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralpattern/adapter/src/main/java/com/liu/adapter/objectadapter/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralpattern/adapter/src/main/java/com/liu/adapter/objectadapter/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralpattern/adapter/src/main/java/com/liu/adapter/objectadapter/Voltage220V.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralpattern/adapter/src/main/java/com/liu/adapter/objectadapter/Voltage5V.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralpattern/adapter/src/main/java/com/liu/adapter/objectadapter/VoltageAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +64,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/creationalpattern" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/structuralpattern/adapter/src/main/java/com/liu/adapter/objectadapter" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33923304" />
@@ -72,41 +75,28 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ideawenjain\DesignPattern\creationalpattern" />
-      <recent name="D:\ideawenjain\DesignPattern\uml\dependency\src\main\java\com\liu\dependency" />
-      <recent name="D:\ideawenjain\DesignPattern\uml" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.liu.demeter.demeter01" />
+      <recent name="com.liu.dependenceinversion.dependence01" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideawenjain\DesignPattern\structuralpattern\adapter\src\main\java\com\liu\adapter\objectadapter" />
       <recent name="D:\ideawenjain\DesignPattern\creationalpattern\factory\src\main\java\com\liu\factory\abstractfactory\pizza" />
       <recent name="D:\ideawenjain\DesignPattern\creationalpattern\factory\src\main\java\com\liu\factory\factorymethon" />
       <recent name="D:\ideawenjain\DesignPattern\creationalpattern\singleton\src\main\java\com\liu\singleton\type08" />
       <recent name="D:\ideawenjain\DesignPattern\creationalpattern\singleton\src\main\java\com\liu\singleton\type07" />
-      <recent name="D:\ideawenjain\DesignPattern\creationalpattern\singleton\src\main\java\com\liu\singleton\type06" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.liu.prototype.imporve" />
       <recent name="com.liu.factory.factorymethon.order" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.liu.demeter.demeter01" />
-      <recent name="com.liu.dependenceinversion.dependence01" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideawenjain\DesignPattern\creationalpattern" />
+      <recent name="D:\ideawenjain\DesignPattern\uml\dependency\src\main\java\com\liu\dependency" />
+      <recent name="D:\ideawenjain\DesignPattern\uml" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (3)">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.prototype.imporve.Client" />
-      <module name="prototype" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liu.prototype.imporve.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liu.build.Client" />
       <module name="build" />
@@ -133,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.prototype.old.Client" />
-      <module name="prototype" />
+    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.adapter.classadapter.Client" />
+      <module name="adapter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liu.prototype.old.*" />
+          <option name="PATTERN" value="com.liu.adapter.classadapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +136,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaStore (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.factory.abstractfactory.order.PizzaStore" />
-      <module name="factory" />
+    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.adapter.objectadapter.Client" />
+      <module name="adapter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liu.factory.abstractfactory.order.*" />
+          <option name="PATTERN" value="com.liu.adapter.objectadapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.adapter.interfaceadapter.Client" />
+      <module name="adapter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liu.adapter.interfaceadapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Client (5)" />
+        <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.PizzaStore (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +212,8 @@
       <workItem from="1589932168980" duration="9048000" />
       <workItem from="1589968026030" duration="1177000" />
       <workItem from="1589974374788" duration="2006000" />
-      <workItem from="1590020408082" duration="6445000" />
+      <workItem from="1590020408082" duration="7114000" />
+      <workItem from="1590048056862" duration="8780000" />
     </task>
     <servers />
   </component>
@@ -221,10 +225,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="25" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1589430377064" />
-    <state x="880" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1590026418149">
+    <state x="880" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1590056043928">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="880" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1590026418149" />
+    <state x="880" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1590056043928" />
     <state x="777" y="154" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1589369561436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -245,26 +249,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="956" y="110" width="309" height="528" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1589369532825" />
-    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1590021689388">
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1590049162821">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590021689388" />
-    <state width="439" height="78" key="GridCell.Tab.0.bottom" timestamp="1590026977642">
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590049162821" />
+    <state width="502" height="192" key="GridCell.Tab.0.bottom" timestamp="1590064360445">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="439" height="78" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590026977642" />
-    <state width="439" height="78" key="GridCell.Tab.0.center" timestamp="1590026977640">
+    <state width="502" height="192" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590064360445" />
+    <state width="502" height="192" key="GridCell.Tab.0.center" timestamp="1590064360445">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="439" height="78" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590026977640" />
-    <state width="439" height="78" key="GridCell.Tab.0.left" timestamp="1590026977638">
+    <state width="502" height="192" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590064360445" />
+    <state width="502" height="192" key="GridCell.Tab.0.left" timestamp="1590064360444">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="439" height="78" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590026977638" />
-    <state width="439" height="78" key="GridCell.Tab.0.right" timestamp="1590026977641">
+    <state width="502" height="192" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590064360444" />
+    <state width="502" height="192" key="GridCell.Tab.0.right" timestamp="1590064360445">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="439" height="78" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590026977641" />
+    <state width="502" height="192" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590064360445" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1589426658310">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -277,10 +281,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="904" y="85" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1589952854351" />
-    <state x="24" y="121" key="new project wizard" timestamp="1590021693550">
+    <state x="-30" y="123" key="new project wizard" timestamp="1590049167856">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="24" y="121" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1590021693550" />
+    <state x="-30" y="123" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1590049167856" />
     <state x="590" y="57" width="672" height="678" key="search.everywhere.popup" timestamp="1589956146329">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
