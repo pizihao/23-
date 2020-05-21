@@ -6,13 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="build" />
         <module name="singleton" />
         <module name="umlall" />
         <module name="factory" />
-        <module name="prototype" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="build" target="1.8" />
       <module name="demeter" target="1.8" />
       <module name="dependenceinversion" target="1.8" />
       <module name="factory" target="1.8" />

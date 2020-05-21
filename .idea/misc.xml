@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/creationalpattern/singleton/pom.xml" />
         <option value="$PROJECT_DIR$/creationalpattern/factory/pom.xml" />
         <option value="$PROJECT_DIR$/prototype/pom.xml" />
+        <option value="$PROJECT_DIR$/creationalpattern/build/pom.xml" />
       </list>
     </option>
   </component>
