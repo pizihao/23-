@@ -6,16 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="build" />
-        <module name="singleton" />
-        <module name="umlall" />
         <module name="factory" />
+        <module name="singleton" />
+        <module name="decorator" />
+        <module name="birdge" />
+        <module name="umlall" />
+        <module name="build" />
         <module name="adapter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="adapter" target="1.8" />
+      <module name="birdge" target="1.8" />
       <module name="build" target="1.8" />
+      <module name="decorator" target="1.8" />
       <module name="demeter" target="1.8" />
       <module name="dependenceinversion" target="1.8" />
       <module name="factory" target="1.8" />
