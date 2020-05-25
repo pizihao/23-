@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/structuralpattern/adapter/adapter.iml" filepath="$PROJECT_DIR$/structuralpattern/adapter/adapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/structuralpattern/birdge/birdge.iml" filepath="$PROJECT_DIR$/structuralpattern/birdge/birdge.iml" />
       <module fileurl="file://$PROJECT_DIR$/creationalpattern/build/build.iml" filepath="$PROJECT_DIR$/creationalpattern/build/build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/structuralpattern/composite/composite.iml" filepath="$PROJECT_DIR$/structuralpattern/composite/composite.iml" />
       <module fileurl="file://$PROJECT_DIR$/structuralpattern/decorator/decorator.iml" filepath="$PROJECT_DIR$/structuralpattern/decorator/decorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/principle/demeter/demeter.iml" filepath="$PROJECT_DIR$/principle/demeter/demeter.iml" />
       <module fileurl="file://$PROJECT_DIR$/principle/dependenceinversion/dependenceinversion.iml" filepath="$PROJECT_DIR$/principle/dependenceinversion/dependenceinversion.iml" />

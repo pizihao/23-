@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/structuralpattern/adapter/pom.xml" />
         <option value="$PROJECT_DIR$/structuralpattern/birdge/pom.xml" />
         <option value="$PROJECT_DIR$/structuralpattern/decorator/pom.xml" />
+        <option value="$PROJECT_DIR$/structuralpattern/composite/pom.xml" />
       </list>
     </option>
   </component>

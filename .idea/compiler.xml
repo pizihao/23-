@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="factory" />
+        <module name="composite" />
         <module name="singleton" />
         <module name="decorator" />
         <module name="birdge" />
@@ -19,6 +20,7 @@
       <module name="adapter" target="1.8" />
       <module name="birdge" target="1.8" />
       <module name="build" target="1.8" />
+      <module name="composite" target="1.8" />
       <module name="decorator" target="1.8" />
       <module name="demeter" target="1.8" />
       <module name="dependenceinversion" target="1.8" />

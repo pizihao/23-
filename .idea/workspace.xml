@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5531c6de-4e37-41f0-9750-34e41562756e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/structuralpattern/birdge/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/birdge/src/main/java/com/liu/birdge/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/birdge/src/main/java/com/liu/birdge/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/birdge/src/main/java/com/liu/birdge/FoldedPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/birdge/src/main/java/com/liu/birdge/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/birdge/src/main/java/com/liu/birdge/UpRightPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/birdge/src/main/java/com/liu/birdge/Vivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/birdge/src/main/java/com/liu/birdge/XiaoMi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/decorator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/decorator/src/main/java/com/liu/decorator/Chocolate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/decorator/src/main/java/com/liu/decorator/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/decorator/src/main/java/com/liu/decorator/CoffeeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/decorator/src/main/java/com/liu/decorator/Decorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/decorator/src/main/java/com/liu/decorator/Dink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/decorator/src/main/java/com/liu/decorator/Espresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/decorator/src/main/java/com/liu/decorator/LongBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/decorator/src/main/java/com/liu/decorator/Milk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/decorator/src/main/java/com/liu/decorator/ShortBlack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/decorator/src/main/java/com/liu/decorator/Soy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralpattern/composite/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralpattern/composite/src/main/java/com/liu/composite/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralpattern/composite/src/main/java/com/liu/composite/College.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralpattern/composite/src/main/java/com/liu/composite/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralpattern/composite/src/main/java/com/liu/composite/OrganizationComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralpattern/composite/src/main/java/com/liu/composite/University.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +88,7 @@
       <recent name="com.liu.dependenceinversion.dependence01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CoffeeClient">
+  <component name="RunManager" selected="Application.Client (2)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liu.birdge.Client" />
       <module name="birdge" />
@@ -115,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.adapter.classadapter.Client" />
-      <module name="adapter" />
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.composite.Client" />
+      <module name="composite" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liu.adapter.classadapter.*" />
+          <option name="PATTERN" value="com.liu.composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.CoffeeClient" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (5)" />
-        <item itemvalue="Application.Client (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +209,8 @@
       <workItem from="1590109795251" duration="1970000" />
       <workItem from="1590221264770" duration="3490000" />
       <workItem from="1590283492872" duration="1445000" />
-      <workItem from="1590305243789" duration="5073000" />
+      <workItem from="1590305243789" duration="7000000" />
+      <workItem from="1590384785465" duration="5967000" />
     </task>
     <servers />
   </component>
@@ -234,10 +222,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="25" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1590222325707" />
-    <state x="880" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1590314361117">
+    <state x="880" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1590398244438">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="880" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1590314361117" />
+    <state x="880" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1590398244438" />
     <state x="777" y="154" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1589369561436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -262,22 +250,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590286323363" />
-    <state width="481" height="125" key="GridCell.Tab.0.bottom" timestamp="1590316013186">
+    <state width="481" height="39" key="GridCell.Tab.0.bottom" timestamp="1590330781505">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="481" height="125" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590316013186" />
-    <state width="481" height="125" key="GridCell.Tab.0.center" timestamp="1590316013186">
+    <state width="481" height="39" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590330781505" />
+    <state width="481" height="39" key="GridCell.Tab.0.center" timestamp="1590330781505">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="481" height="125" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590316013186" />
-    <state width="481" height="125" key="GridCell.Tab.0.left" timestamp="1590316013186">
+    <state width="481" height="39" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590330781505" />
+    <state width="481" height="39" key="GridCell.Tab.0.left" timestamp="1590330781505">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="481" height="125" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590316013186" />
-    <state width="481" height="125" key="GridCell.Tab.0.right" timestamp="1590316013186">
+    <state width="481" height="39" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590330781505" />
+    <state width="481" height="39" key="GridCell.Tab.0.right" timestamp="1590330781505">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="481" height="125" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590316013186" />
+    <state width="481" height="39" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590330781505" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1590303801935">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -290,17 +278,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="904" y="85" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1590314184938" />
-    <state x="95" y="96" key="new project wizard" timestamp="1590312657486">
+    <state x="28" y="104" key="new project wizard" timestamp="1590325639063">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="95" y="96" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1590312657486" />
-    <state x="760" y="168" key="run.anything.popup" timestamp="1590229978291">
+    <state x="28" y="104" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1590325639063" />
+    <state x="760" y="168" key="run.anything.popup" timestamp="1590398262361">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="760" y="168" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1590229978291" />
-    <state x="590" y="57" width="672" height="678" key="search.everywhere.popup" timestamp="1589956146329">
+    <state x="760" y="168" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1590398262361" />
+    <state x="590" y="57" width="672" height="678" key="search.everywhere.popup" timestamp="1590398473367">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="590" y="57" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589956146329" />
+    <state x="590" y="57" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1590398473367" />
   </component>
 </project>
