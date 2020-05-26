@@ -7,13 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="factory" />
-        <module name="composite" />
+        <module name="facade" />
         <module name="singleton" />
         <module name="decorator" />
         <module name="birdge" />
         <module name="umlall" />
-        <module name="build" />
         <module name="adapter" />
+        <module name="composite" />
+        <module name="build" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +25,7 @@
       <module name="decorator" target="1.8" />
       <module name="demeter" target="1.8" />
       <module name="dependenceinversion" target="1.8" />
+      <module name="facade" target="1.8" />
       <module name="factory" target="1.8" />
       <module name="liskovsubstitution" target="1.8" />
       <module name="openclosed" target="1.8" />
