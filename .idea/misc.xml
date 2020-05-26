@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/structuralpattern/decorator/pom.xml" />
         <option value="$PROJECT_DIR$/structuralpattern/composite/pom.xml" />
         <option value="$PROJECT_DIR$/structuralpattern/facade/pom.xml" />
+        <option value="$PROJECT_DIR$/structuralpattern/flyweight/pom.xml" />
       </list>
     </option>
   </component>

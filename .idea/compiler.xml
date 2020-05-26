@@ -14,6 +14,7 @@
         <module name="umlall" />
         <module name="adapter" />
         <module name="composite" />
+        <module name="flyweight" />
         <module name="build" />
       </profile>
     </annotationProcessing>
@@ -27,6 +28,7 @@
       <module name="dependenceinversion" target="1.8" />
       <module name="facade" target="1.8" />
       <module name="factory" target="1.8" />
+      <module name="flyweight" target="1.8" />
       <module name="liskovsubstitution" target="1.8" />
       <module name="openclosed" target="1.8" />
       <module name="prototype" target="1.8" />
