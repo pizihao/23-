@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/structuralpattern/composite/pom.xml" />
         <option value="$PROJECT_DIR$/structuralpattern/facade/pom.xml" />
         <option value="$PROJECT_DIR$/structuralpattern/flyweight/pom.xml" />
+        <option value="$PROJECT_DIR$/structuralpattern/proxy/pom.xml" />
       </list>
     </option>
   </component>

@@ -7,15 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="factory" />
-        <module name="facade" />
+        <module name="build" />
         <module name="singleton" />
         <module name="decorator" />
         <module name="birdge" />
         <module name="umlall" />
         <module name="adapter" />
         <module name="composite" />
+        <module name="proxy" />
         <module name="flyweight" />
-        <module name="build" />
+        <module name="facade" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,6 +33,7 @@
       <module name="liskovsubstitution" target="1.8" />
       <module name="openclosed" target="1.8" />
       <module name="prototype" target="1.8" />
+      <module name="proxy" target="1.8" />
       <module name="segregationprinciple" target="1.8" />
       <module name="singleresponsibility" target="1.8" />
       <module name="singleton" target="1.8" />
