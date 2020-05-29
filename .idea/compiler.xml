@@ -6,23 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="factory" />
         <module name="build" />
-        <module name="singleton" />
+        <module name="command" />
         <module name="decorator" />
-        <module name="birdge" />
         <module name="umlall" />
-        <module name="adapter" />
-        <module name="composite" />
-        <module name="proxy" />
         <module name="flyweight" />
+        <module name="composite" />
         <module name="facade" />
+        <module name="proxy" />
+        <module name="factory" />
+        <module name="birdge" />
+        <module name="visitor" />
+        <module name="template" />
+        <module name="adapter" />
+        <module name="singleton" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="adapter" target="1.8" />
       <module name="birdge" target="1.8" />
       <module name="build" target="1.8" />
+      <module name="command" target="1.8" />
       <module name="composite" target="1.8" />
       <module name="decorator" target="1.8" />
       <module name="demeter" target="1.8" />
@@ -37,7 +41,9 @@
       <module name="segregationprinciple" target="1.8" />
       <module name="singleresponsibility" target="1.8" />
       <module name="singleton" target="1.8" />
+      <module name="template" target="1.8" />
       <module name="umlall" target="1.8" />
+      <module name="visitor" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -2,15 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5531c6de-4e37-41f0-9750-34e41562756e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/structuralpattern/proxy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/proxy/src/main/java/com/liu/proxy/dynamicproxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/proxy/src/main/java/com/liu/proxy/dynamicproxy/ITeacherDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/proxy/src/main/java/com/liu/proxy/dynamicproxy/ProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/proxy/src/main/java/com/liu/proxy/dynamicproxy/TeacherDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/proxy/src/main/java/com/liu/proxy/staticproxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/proxy/src/main/java/com/liu/proxy/staticproxy/ITeacherDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/proxy/src/main/java/com/liu/proxy/staticproxy/TeacherDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralpattern/proxy/src/main/java/com/liu/proxy/staticproxy/TeacherDaoProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/command/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/command/src/main/java/com/liu/command/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/command/src/main/java/com/liu/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/command/src/main/java/com/liu/command/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/command/src/main/java/com/liu/command/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/command/src/main/java/com/liu/command/LightReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/command/src/main/java/com/liu/command/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/command/src/main/java/com/liu/command/RemoteConteoller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/template/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/template/src/main/java/com/liu/template/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/template/src/main/java/com/liu/template/PeanutSoyMilk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/template/src/main/java/com/liu/template/PureSoyaMilk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/template/src/main/java/com/liu/template/RedBeanSoyMilk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/template/src/main/java/com/liu/template/SoyaMilk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/visitor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/visitor/src/main/java/com/liu/visitor/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/visitor/src/main/java/com/liu/visitor/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/visitor/src/main/java/com/liu/visitor/Fail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/visitor/src/main/java/com/liu/visitor/Man.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/visitor/src/main/java/com/liu/visitor/ObjectStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/visitor/src/main/java/com/liu/visitor/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/visitor/src/main/java/com/liu/visitor/Success.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/visitor/src/main/java/com/liu/visitor/Woman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,9 +84,10 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.liu.demeter.demeter01" />
-      <recent name="com.liu.dependenceinversion.dependence01" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideawenjain\DesignPattern\creationalpattern" />
+      <recent name="D:\ideawenjain\DesignPattern\uml\dependency\src\main\java\com\liu\dependency" />
+      <recent name="D:\ideawenjain\DesignPattern\uml" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ideawenjain\DesignPattern\structuralpattern\proxy\src\main\java\com\liu\proxy\dynamicproxy" />
@@ -85,13 +100,13 @@
       <recent name="com.liu.prototype.imporve" />
       <recent name="com.liu.factory.factorymethon.order" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ideawenjain\DesignPattern\creationalpattern" />
-      <recent name="D:\ideawenjain\DesignPattern\uml\dependency\src\main\java\com\liu\dependency" />
-      <recent name="D:\ideawenjain\DesignPattern\uml" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.liu.visitor" />
+      <recent name="com.liu.demeter.demeter01" />
+      <recent name="com.liu.dependenceinversion.dependence01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.Client (3)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liu.proxy.dynamicproxy.Client" />
       <module name="proxy" />
@@ -106,11 +121,11 @@
       </method>
     </configuration>
     <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.composite.Client" />
-      <module name="composite" />
+      <option name="MAIN_CLASS_NAME" value="com.liu.command.Client" />
+      <module name="command" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liu.composite.*" />
+          <option name="PATTERN" value="com.liu.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +134,11 @@
       </method>
     </configuration>
     <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.facade.Client" />
-      <module name="facade" />
+      <option name="MAIN_CLASS_NAME" value="com.liu.visitor.Client" />
+      <module name="visitor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liu.facade.*" />
+          <option name="PATTERN" value="com.liu.visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,13 +172,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.template.Client" />
+      <module name="template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liu.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (3)" />
+        <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (4)" />
-        <item itemvalue="Application.Client (3)" />
-        <item itemvalue="Application.Client (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +244,11 @@
       <workItem from="1590384785465" duration="6369000" />
       <workItem from="1590451505114" duration="8317000" />
       <workItem from="1590482246102" duration="3609000" />
-      <workItem from="1590539013016" duration="6880000" />
+      <workItem from="1590539013016" duration="7479000" />
+      <workItem from="1590591629146" duration="968000" />
+      <workItem from="1590631294442" duration="10305000" />
+      <workItem from="1590717310517" duration="629000" />
+      <workItem from="1590725257650" duration="4605000" />
     </task>
     <servers />
   </component>
@@ -224,14 +256,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="25" key="#Project_Structure" timestamp="1590222325707">
+    <state x="275" y="25" key="#Project_Structure" timestamp="1590649013429">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="25" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1590222325707" />
-    <state x="880" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1590547234287">
+    <state x="275" y="25" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1590649013429" />
+    <state x="880" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1590733131930">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="880" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1590547234287" />
+    <state x="880" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1590733131930" />
     <state x="777" y="154" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1589369561436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -256,22 +288,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590286323363" />
-    <state width="523" height="109" key="GridCell.Tab.0.bottom" timestamp="1590504540240">
+    <state width="476" height="30" key="GridCell.Tab.0.bottom" timestamp="1590733905941">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="523" height="109" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590504540240" />
-    <state width="523" height="109" key="GridCell.Tab.0.center" timestamp="1590504540239">
+    <state width="476" height="30" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590733905941" />
+    <state width="476" height="30" key="GridCell.Tab.0.center" timestamp="1590733905941">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="523" height="109" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590504540239" />
-    <state width="523" height="109" key="GridCell.Tab.0.left" timestamp="1590504540237">
+    <state width="476" height="30" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590733905941" />
+    <state width="476" height="30" key="GridCell.Tab.0.left" timestamp="1590733905941">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="523" height="109" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590504540237" />
-    <state width="523" height="109" key="GridCell.Tab.0.right" timestamp="1590504540240">
+    <state width="476" height="30" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590733905941" />
+    <state width="476" height="30" key="GridCell.Tab.0.right" timestamp="1590733905941">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="523" height="109" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590504540240" />
+    <state width="476" height="30" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590733905941" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1590303801935">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -284,10 +316,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="904" y="85" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1590314184938" />
-    <state x="55" y="28" key="new project wizard" timestamp="1590483206210">
+    <state x="98" y="78" key="new project wizard" timestamp="1590725303445">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="55" y="28" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1590483206210" />
+    <state x="98" y="78" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1590725303445" />
     <state x="760" y="168" key="run.anything.popup" timestamp="1590398262361">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

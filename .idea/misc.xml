@@ -21,6 +21,9 @@
         <option value="$PROJECT_DIR$/structuralpattern/facade/pom.xml" />
         <option value="$PROJECT_DIR$/structuralpattern/flyweight/pom.xml" />
         <option value="$PROJECT_DIR$/structuralpattern/proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/behavioralpatterns/template/pom.xml" />
+        <option value="$PROJECT_DIR$/behavioralpatterns/command/pom.xml" />
+        <option value="$PROJECT_DIR$/behavioralpatterns/visitor/pom.xml" />
       </list>
     </option>
   </component>
