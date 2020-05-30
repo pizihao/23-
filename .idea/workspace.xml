@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5531c6de-4e37-41f0-9750-34e41562756e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/Iterator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/Iterator/src/main/java/com/liu/Iterator/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/Iterator/src/main/java/com/liu/Iterator/College.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/Iterator/src/main/java/com/liu/Iterator/ComputerCollege.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/Iterator/src/main/java/com/liu/Iterator/ComputerCollegeIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/Iterator/src/main/java/com/liu/Iterator/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/Iterator/src/main/java/com/liu/Iterator/InfoColleageiterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/Iterator/src/main/java/com/liu/Iterator/InfoCollege.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/Iterator/src/main/java/com/liu/Iterator/OutPutImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/observer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/observer/src/main/java/com/liu/observer/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/observer/src/main/java/com/liu/observer/CurrentConditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/observer/src/main/java/com/liu/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/observer/src/main/java/com/liu/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/observer/src/main/java/com/liu/observer/WeatherData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +89,7 @@
       <recent name="com.liu.dependenceinversion.dependence01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (5)">
+  <component name="RunManager" selected="Application.Client (4)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liu.proxy.dynamicproxy.Client" />
       <module name="proxy" />
@@ -132,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.Iterator.Client" />
-      <module name="Iterator" />
+    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.observer.Client" />
+      <module name="observer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liu.Iterator.*" />
+          <option name="PATTERN" value="com.liu.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.proxy.staticproxy.Client" />
-      <module name="proxy" />
+    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.Iterator.Client" />
+      <module name="Iterator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liu.proxy.staticproxy.*" />
+          <option name="PATTERN" value="com.liu.Iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +232,7 @@
       <workItem from="1590631294442" duration="10305000" />
       <workItem from="1590717310517" duration="629000" />
       <workItem from="1590725257650" duration="5708000" />
-      <workItem from="1590786670522" duration="8763000" />
+      <workItem from="1590786670522" duration="12771000" />
     </task>
     <servers />
   </component>
@@ -247,10 +244,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="25" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1590649013429" />
-    <state x="880" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1590822030560">
+    <state x="880" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1590847482920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="880" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1590822030560" />
+    <state x="880" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1590847482920" />
     <state x="777" y="154" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1589369561436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -275,22 +272,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590286323363" />
-    <state width="476" height="217" key="GridCell.Tab.0.bottom" timestamp="1590824790707">
+    <state width="476" height="217" key="GridCell.Tab.0.bottom" timestamp="1590849246533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="476" height="217" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590824790707" />
-    <state width="476" height="217" key="GridCell.Tab.0.center" timestamp="1590824790707">
+    <state width="476" height="217" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590849246533" />
+    <state width="476" height="217" key="GridCell.Tab.0.center" timestamp="1590849246533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="476" height="217" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590824790707" />
-    <state width="476" height="217" key="GridCell.Tab.0.left" timestamp="1590824790707">
+    <state width="476" height="217" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590849246533" />
+    <state width="476" height="217" key="GridCell.Tab.0.left" timestamp="1590849246533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="476" height="217" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590824790707" />
-    <state width="476" height="217" key="GridCell.Tab.0.right" timestamp="1590824790707">
+    <state width="476" height="217" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590849246533" />
+    <state width="476" height="217" key="GridCell.Tab.0.right" timestamp="1590849246533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="476" height="217" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590824790707" />
+    <state width="476" height="217" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590849246533" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1590303801935">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -303,10 +300,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="904" y="85" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1590314184938" />
-    <state x="98" y="78" key="new project wizard" timestamp="1590812989451">
+    <state x="115" y="127" key="new project wizard" timestamp="1590824960600">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="98" y="78" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1590812989451" />
+    <state x="115" y="127" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1590824960600" />
     <state x="760" y="168" key="run.anything.popup" timestamp="1590398262361">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
