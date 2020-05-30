@@ -1622,3 +1622,4 @@ Spring框架的JdbcTemplate就使用到了命令模式
 5. ConcreteElement 为具体的原色，实现了accept方法
 
 ### 15，迭代器模式
+

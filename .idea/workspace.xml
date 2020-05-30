@@ -2,29 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5531c6de-4e37-41f0-9750-34e41562756e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/command/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/command/src/main/java/com/liu/command/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/command/src/main/java/com/liu/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/command/src/main/java/com/liu/command/LightOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/command/src/main/java/com/liu/command/LightOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/command/src/main/java/com/liu/command/LightReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/command/src/main/java/com/liu/command/NoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/command/src/main/java/com/liu/command/RemoteConteoller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/template/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/template/src/main/java/com/liu/template/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/template/src/main/java/com/liu/template/PeanutSoyMilk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/template/src/main/java/com/liu/template/PureSoyaMilk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/template/src/main/java/com/liu/template/RedBeanSoyMilk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/template/src/main/java/com/liu/template/SoyaMilk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/visitor/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/visitor/src/main/java/com/liu/visitor/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/visitor/src/main/java/com/liu/visitor/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/visitor/src/main/java/com/liu/visitor/Fail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/visitor/src/main/java/com/liu/visitor/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/visitor/src/main/java/com/liu/visitor/ObjectStructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/visitor/src/main/java/com/liu/visitor/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/visitor/src/main/java/com/liu/visitor/Success.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/visitor/src/main/java/com/liu/visitor/Woman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -248,7 +225,8 @@
       <workItem from="1590591629146" duration="968000" />
       <workItem from="1590631294442" duration="10305000" />
       <workItem from="1590717310517" duration="629000" />
-      <workItem from="1590725257650" duration="4605000" />
+      <workItem from="1590725257650" duration="5708000" />
+      <workItem from="1590786670522" duration="1398000" />
     </task>
     <servers />
   </component>
@@ -288,22 +266,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590286323363" />
-    <state width="476" height="30" key="GridCell.Tab.0.bottom" timestamp="1590733905941">
+    <state width="476" height="41" key="GridCell.Tab.0.bottom" timestamp="1590754456982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="476" height="30" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590733905941" />
-    <state width="476" height="30" key="GridCell.Tab.0.center" timestamp="1590733905941">
+    <state width="476" height="41" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590754456982" />
+    <state width="476" height="41" key="GridCell.Tab.0.center" timestamp="1590754456982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="476" height="30" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590733905941" />
-    <state width="476" height="30" key="GridCell.Tab.0.left" timestamp="1590733905941">
+    <state width="476" height="41" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590754456982" />
+    <state width="476" height="41" key="GridCell.Tab.0.left" timestamp="1590754456982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="476" height="30" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590733905941" />
-    <state width="476" height="30" key="GridCell.Tab.0.right" timestamp="1590733905941">
+    <state width="476" height="41" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590754456982" />
+    <state width="476" height="41" key="GridCell.Tab.0.right" timestamp="1590754456982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="476" height="30" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590733905941" />
+    <state width="476" height="41" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590754456982" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1590303801935">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
