@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5531c6de-4e37-41f0-9750-34e41562756e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/observer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/observer/src/main/java/com/liu/observer/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/observer/src/main/java/com/liu/observer/CurrentConditions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/observer/src/main/java/com/liu/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/observer/src/main/java/com/liu/observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/observer/src/main/java/com/liu/observer/WeatherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/mediator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/mediator/src/main/java/com/liu/mediator/Alarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/mediator/src/main/java/com/liu/mediator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/mediator/src/main/java/com/liu/mediator/CoffeeMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/mediator/src/main/java/com/liu/mediator/Colleague.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/mediator/src/main/java/com/liu/mediator/ConcreteMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/mediator/src/main/java/com/liu/mediator/Curtains.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/mediator/src/main/java/com/liu/mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/mediator/src/main/java/com/liu/mediator/TV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structuralpattern/facade/src/main/java/com/liu/facade/TheaterLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/structuralpattern/facade/src/main/java/com/liu/facade/TheaterLight.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,20 +93,7 @@
       <recent name="com.liu.dependenceinversion.dependence01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (4)">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.proxy.dynamicproxy.Client" />
-      <module name="proxy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liu.proxy.dynamicproxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Client (6)">
     <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liu.command.Client" />
       <module name="command" />
@@ -155,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.template.Client" />
-      <module name="template" />
+    <configuration name="Client (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.mediator.Client" />
+      <module name="mediator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liu.template.*" />
+          <option name="PATTERN" value="com.liu.mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (6)" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.Client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -233,6 +224,7 @@
       <workItem from="1590717310517" duration="629000" />
       <workItem from="1590725257650" duration="5708000" />
       <workItem from="1590786670522" duration="12771000" />
+      <workItem from="1590898922396" duration="12654000" />
     </task>
     <servers />
   </component>
@@ -240,14 +232,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="25" key="#Project_Structure" timestamp="1590649013429">
+    <state x="275" y="25" key="#Project_Structure" timestamp="1590908764433">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="25" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1590649013429" />
-    <state x="880" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1590847482920">
+    <state x="275" y="25" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1590908764433" />
+    <state x="880" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1590917050237">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="880" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1590847482920" />
+    <state x="880" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1590917050237" />
     <state x="777" y="154" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1589369561436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -260,6 +252,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="440" y="301" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1589871185987" />
+    <state x="836" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590916216889">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="836" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1590916216889" />
     <state x="401" y="246" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589947480564">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -272,22 +268,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590286323363" />
-    <state width="476" height="217" key="GridCell.Tab.0.bottom" timestamp="1590849246533">
+    <state width="683" height="217" key="GridCell.Tab.0.bottom" timestamp="1590918134188">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="476" height="217" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590849246533" />
-    <state width="476" height="217" key="GridCell.Tab.0.center" timestamp="1590849246533">
+    <state width="683" height="217" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590918134188" />
+    <state width="683" height="217" key="GridCell.Tab.0.center" timestamp="1590918134187">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="476" height="217" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590849246533" />
-    <state width="476" height="217" key="GridCell.Tab.0.left" timestamp="1590849246533">
+    <state width="683" height="217" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590918134187" />
+    <state width="683" height="217" key="GridCell.Tab.0.left" timestamp="1590918134187">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="476" height="217" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590849246533" />
-    <state width="476" height="217" key="GridCell.Tab.0.right" timestamp="1590849246533">
+    <state width="683" height="217" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590918134187" />
+    <state width="683" height="217" key="GridCell.Tab.0.right" timestamp="1590918134187">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="476" height="217" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590849246533" />
+    <state width="683" height="217" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590918134187" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1590303801935">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -300,10 +296,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="904" y="85" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1590314184938" />
-    <state x="115" y="127" key="new project wizard" timestamp="1590824960600">
+    <state x="68" y="73" key="new project wizard" timestamp="1590910227715">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="115" y="127" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1590824960600" />
+    <state x="68" y="73" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1590910227715" />
+    <state x="772" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1590916417470">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="772" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1590916417470" />
     <state x="760" y="168" key="run.anything.popup" timestamp="1590398262361">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

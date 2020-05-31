@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/creationalpattern/factory/factory.iml" filepath="$PROJECT_DIR$/creationalpattern/factory/factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/structuralpattern/flyweight/flyweight.iml" filepath="$PROJECT_DIR$/structuralpattern/flyweight/flyweight.iml" />
       <module fileurl="file://$PROJECT_DIR$/principle/liskovsubstitution/liskovsubstitution.iml" filepath="$PROJECT_DIR$/principle/liskovsubstitution/liskovsubstitution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/behavioralpatterns/mediator/mediator.iml" filepath="$PROJECT_DIR$/behavioralpatterns/mediator/mediator.iml" />
       <module fileurl="file://$PROJECT_DIR$/behavioralpatterns/observer/observer.iml" filepath="$PROJECT_DIR$/behavioralpatterns/observer/observer.iml" />
       <module fileurl="file://$PROJECT_DIR$/principle/openclosed/openclosed.iml" filepath="$PROJECT_DIR$/principle/openclosed/openclosed.iml" />
       <module fileurl="file://$PROJECT_DIR$/creationalpattern/prototype/prototype.iml" filepath="$PROJECT_DIR$/creationalpattern/prototype/prototype.iml" />

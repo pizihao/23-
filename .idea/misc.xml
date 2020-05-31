@@ -26,6 +26,7 @@
         <option value="$PROJECT_DIR$/behavioralpatterns/visitor/pom.xml" />
         <option value="$PROJECT_DIR$/behavioralpatterns/Iterator/pom.xml" />
         <option value="$PROJECT_DIR$/behavioralpatterns/observer/pom.xml" />
+        <option value="$PROJECT_DIR$/behavioralpatterns/mediator/pom.xml" />
       </list>
     </option>
   </component>
