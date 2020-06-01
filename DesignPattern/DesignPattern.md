@@ -4124,8 +4124,153 @@ public class Client {
 3. 符合“开闭原则”。容易增删状态
 4. 会产生很多类。每个状态都要- 一个对应的类，当状态过多时会产生很多类，加大维
    护难度
-5. 当一个事件或者对象有很多种状态，状态之间会相互转换，对不同的状态要求有不同的行为的时候，可以考虑使用状态模式
+5. 当一个事件或者对象有很多种状态，状态之 间会相互转换，对不同的状态要求有不同的行为的时候，可以考虑使用状态模式
 
 ### 21，策略模式
+
+> 一个鸭子项目
+
+1. 有各种鸭子(比如野鸭，北京鸭，水鸭等，鸭子有各种行为，比如叫，飞行等)
+2. 显示鸭子的信息
+
+> 传统继承方式的问题
+
+1. 其它鸭子，都继承了Duck类，所以fly让所有子类都会飞了，这是不正确的
+2. 上面说的1的问题，其实是继承带来的问题:对类的局部改动，尤其超类的局部改动，会影响其他部分。会有溢出效应
+3. 为了改进1问题，我们可以通过覆盖fly方法来解决=>覆盖解决
+4. 问题又来了，如果我们有一个玩具鸭子ToyDuck,这样就需要ToyDuck去覆盖Duck的所有实现的方法=>解决思路策略模式(strategy patterm)
+
+> 基本介绍
+
+1. 策略模式(Strategy Pattern)中，定义算法族，分别封装起来，让他们之间可以互相替换，此模式让算法的变化独立于使用算法的客户
+2. 这算法体现了几个设计原则，第一、把变化的代码从不变的代码中分离出来;第二、针对接口编程而不是具体类(定义了策略接口) ;第三、多用组合/聚合，少用继承(客户通过组合方式使用策略) 
+
+> 代码
+
+~~~java
+public class BadFlyBehavior implements FLyBehavior {
+    @Override
+    public void fly() {
+        System.out.println("鸭子飞的一般");
+    }
+}
+~~~
+
+~~~java
+public abstract class Duck {
+
+    //属性，策略接口
+    FLyBehavior fLyBehavior;
+
+    public Duck() {
+    }
+
+    public abstract void display();
+
+    public void fly(){
+        if (fLyBehavior != null){
+            fLyBehavior.fly();
+        }
+    }
+}
+~~~
+
+~~~java
+public interface FLyBehavior {
+    public void fly();
+}
+~~~
+
+~~~java
+public class GoodFlyBehavior  implements FLyBehavior{
+    @Override
+    public void fly() {
+        System.out.println("鸭子飞的很好");
+    }
+}
+~~~
+
+~~~java
+public class NoFlyBehavior implements FLyBehavior{
+    @Override
+    public void fly() {
+        System.out.println("鸭子不会飞");
+    }
+}
+~~~
+
+~~~java
+public class PekingDuck extends Duck{
+
+    public PekingDuck() {
+        fLyBehavior = new BadFlyBehavior();
+    }
+
+    @Override
+    public void display() {
+        System.out.println("北京鸭");
+    }
+}
+~~~
+
+~~~java
+public class ToyDuck extends Duck {
+
+    //构造器，传入FlyBehavior的对象
+    public ToyDuck() {
+        fLyBehavior = new NoFlyBehavior();
+    }
+
+    @Override
+    public void display() {
+        System.out.println("这是玩具鸭");
+    }
+}
+~~~
+
+~~~java
+public class WildDuck extends Duck {
+
+    //构造器，传入FlyBehavior的对象
+    public WildDuck(){
+        fLyBehavior = new GoodFlyBehavior();
+    }
+
+    @Override
+    public void display() {
+        System.out.println("这是野鸭");
+    }
+}
+~~~
+
+~~~java
+public class Client {
+    public static void main(String[] args) {
+        WildDuck wildDuck = new WildDuck();
+        wildDuck.display();
+        wildDuck.fly();
+
+        ToyDuck toyDuck = new ToyDuck();
+        toyDuck.display();
+        toyDuck.fly();
+
+        PekingDuck pekingDuck = new PekingDuck();
+        pekingDuck.display();
+        pekingDuck.fly();
+    }
+}
+~~~
+
+> 源码
+
+JDK在Arrays的 Comparator就使用了策略模式
+
+> 注意细节
+
+1. 策略模式的关键是:分析项目中变化部分与不变部分
+2. 策略模式的核心思想是:多用组合/聚合少用继承;用行为类组合，而不是行为的继承。更有弹性
+3. 体现了“对修改关闭，对扩展开放”原则，客户端增加行为不用修改原有代码，只要添加一种策略(或者行为)即可，避免了使用多重转移语句(if. else f..else)
+4. 提供了可以替换继承关系的办法:策略模式将算法封装 在独立的Strategy类中使得你可以独立于其Context改变它，使它易于切换、易于理解、易于扩展
+5. 需要注意的是:每添加一个策略就要增加-一个类，当策略过多是会导致类数目庞大
 
 ### 22，职责链模式
