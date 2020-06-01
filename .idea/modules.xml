@@ -26,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/principle/segregationprinciple/segregationprinciple.iml" filepath="$PROJECT_DIR$/principle/segregationprinciple/segregationprinciple.iml" />
       <module fileurl="file://$PROJECT_DIR$/principle/singleresponsibility/singleresponsibility.iml" filepath="$PROJECT_DIR$/principle/singleresponsibility/singleresponsibility.iml" />
       <module fileurl="file://$PROJECT_DIR$/creationalpattern/singleton/singleton.iml" filepath="$PROJECT_DIR$/creationalpattern/singleton/singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/behavioralpatterns/state/state.iml" filepath="$PROJECT_DIR$/behavioralpatterns/state/state.iml" />
       <module fileurl="file://$PROJECT_DIR$/behavioralpatterns/template/template.iml" filepath="$PROJECT_DIR$/behavioralpatterns/template/template.iml" />
       <module fileurl="file://$PROJECT_DIR$/uml/umlall/umlall.iml" filepath="$PROJECT_DIR$/uml/umlall/umlall.iml" />
       <module fileurl="file://$PROJECT_DIR$/behavioralpatterns/visitor/visitor.iml" filepath="$PROJECT_DIR$/behavioralpatterns/visitor/visitor.iml" />

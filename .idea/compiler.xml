@@ -23,6 +23,7 @@
         <module name="birdge" />
         <module name="visitor" />
         <module name="template" />
+        <module name="state" />
         <module name="flyweight" />
         <module name="singleton" />
       </profile>
@@ -51,6 +52,7 @@
       <module name="segregationprinciple" target="1.8" />
       <module name="singleresponsibility" target="1.8" />
       <module name="singleton" target="1.8" />
+      <module name="state" target="1.8" />
       <module name="template" target="1.8" />
       <module name="umlall" target="1.8" />
       <module name="visitor" target="1.8" />
