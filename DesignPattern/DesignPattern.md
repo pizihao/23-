@@ -3447,7 +3447,432 @@ public class Client {
 2. 可以这样理解备忘录模式:现实生活中的备忘录是用来记录某些要去做的事情，或者是记录已经达成的共同意见的事情，以防忘记了。而在软件层面，备忘录模式有着相同的含义，备忘录对象主要用来记录一个对象的某种状态，或者某些数据，当要做回退时，可以从备忘录对象里获取原来的数据进行恢复操作
 3. 备忘录模式属于行为型模式
 
+> 代码
+
+~~~java
+public class Caretaker {
+    private List<Memento> mementoList = new ArrayList<>();
+
+    public void add(Memento memento){
+        mementoList.add(memento);
+    }
+
+    public Memento get(int index){
+        return mementoList.get(index);
+    }
+}
+~~~
+
+~~~java
+public class Originator {
+    private String state; //状态信息
+
+    public String getState() {
+        return state;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
+
+    //编写一个方法，可以保存一个状态对象 Memento
+    public Memento saveStateMemento(){
+        return new Memento(state);
+    }
+    //通过备忘录对象 恢复状态
+    public void getStartFromMemento(Memento memento){
+        state = memento.getState();
+    }
+}
+~~~
+
+~~~java
+public class Memento {
+    private String state; //状态信息
+
+    public String getState() {
+        return state;
+    }
+
+    public Memento(String state) {
+        super();
+        this.state = state;
+    }
+}
+~~~
+
+~~~java
+public class Client {
+    public static void main(String[] args) {
+        Originator originator = new Originator();
+
+        Caretaker caretaker = new Caretaker();
+
+        originator.setState("状态一 LV 1");
+        caretaker.add(originator.saveStateMemento());
+
+        originator.setState("状态二 LV 2");
+        caretaker.add(originator.saveStateMemento());
+
+        originator.setState("状态三 LV 1");
+        caretaker.add(originator.saveStateMemento());
+
+        System.out.println("当前状态"+originator.getState());
+        //希望回到状态二
+        originator.getStartFromMemento(caretaker.get(1));
+        System.out.println("恢复到状态二："+originator.getState());
+
+    }
+}
+~~~
+
+> 角色
+
+1. originator：对象(需要保存状态的对象)
+2. Memento: 备忘录对象，负责保存好记录，即originator内部状态
+3. caretaker: 守护者对象，负责保存多个备忘录对象，使用集合存储，提高效率
+
+> 游戏角色恢复实例代码
+
+~~~java
+public class Memento {
+    //攻击力
+    private int vit;
+    //防御力
+    private int def;
+
+    public Memento(int vit, int def) {
+        this.vit = vit;
+        this.def = def;
+    }
+
+    public int getVit() {
+        return vit;
+    }
+
+    public void setVit(int vit) {
+        this.vit = vit;
+    }
+
+    public int getDef() {
+        return def;
+    }
+
+    public void setDef(int def) {
+        this.def = def;
+    }
+}
+~~~
+
+~~~java
+//守护者对象，保存游戏角色状态
+public class Caretaker {
+    //如果只保存一次状态
+    private Memento memento;
+    //对GameRole 保存对此状态
+    private ArrayList<Memento> mementos;
+    //对多个游戏角色保存多个状态
+    private HashMap<String, ArrayList<Memento>> listHashMap;
+
+    public Memento getMemento() {
+        return memento;
+    }
+
+    public void setMemento(Memento memento) {
+        this.memento = memento;
+    }
+
+    public ArrayList<Memento> getMementos() {
+        return mementos;
+    }
+
+    public void setMementos(ArrayList<Memento> mementos) {
+        this.mementos = mementos;
+    }
+
+    public HashMap<String, ArrayList<Memento>> getListHashMap() {
+        return listHashMap;
+    }
+
+    public void setListHashMap(HashMap<String, ArrayList<Memento>> listHashMap) {
+        this.listHashMap = listHashMap;
+    }
+}
+~~~
+
+~~~java
+public class GameRole {
+    private int vit;
+    private int def;
+
+    //创建Memento 即根据当前的状态得到Memento
+    public Memento createMemento(){
+        return new Memento(vit,def);
+    }
+
+    //从备忘录对象恢复状态
+    public void recoverGameRoleFromMemento(Memento memento){
+        this.vit = memento.getVit();
+        this.def = memento.getDef();
+    }
+    //显示当前角色的状态
+    public void display(){
+        System.out.println("游戏角色当前的攻击力:"+this.vit + "防御力："+this.def);
+
+    }
+
+    public int getVit() {
+        return vit;
+    }
+
+    public void setVit(int vit) {
+        this.vit = vit;
+    }
+
+    public int getDef() {
+        return def;
+    }
+
+    public void setDef(int def) {
+        this.def = def;
+    }
+}
+~~~
+
+~~~java
+public class Client {
+    public static void main(String[] args) {
+        //创建游戏角色
+        GameRole gameRole = new GameRole();
+        gameRole.setVit(100);
+        gameRole.setDef(100);
+
+        System.out.println("干架前");
+        gameRole.display();
+
+        //保存当前状态到caretaker
+        Caretaker caretaker = new Caretaker();
+        caretaker.setMemento(gameRole.createMemento());
+
+        System.out.println("干架后");
+        gameRole.setVit(30);
+        gameRole.setDef(30);
+        gameRole.display();
+
+        System.out.println("恢复到干架前");
+        gameRole.recoverGameRoleFromMemento(caretaker.getMemento());
+        gameRole.display();
+    }
+}
+~~~
+
+> 注意事项和细节
+
+1. 给用户提供了一种可以恢复状态的机制，可以使用户能够比较方便地回到某个历史的状态
+2. 实现了信息的封装，使得用户不需要关心状态的保存细节
+3. 如果类的成员变量过多，势必会占用比较大的资源，而且每一次保存都会消耗一定的内存，这个需要注意
+4. 适用的应用场景: 1、后悔药。2、 打游戏时的存档。3、 Windows里的ctri +Z,。4、IE中的后退。4、 数据库的事务管理
+5. 为了节约内存，备忘录模式可以和原型模式配合使用
+
+### 19，解释器模式
+
+> 四则运算问题
+
+通过解释器模式来实现四则远算，如计算a+b+c的值，具体要求
+
+1. 先输入表达式的形式，比如a+b+c-d+e, 要求表达式的字母不能重复
+2. 再分别输入a ,b, c,d,e的值
+3. 最后求出结果
+
+> 基本介绍
+
+1. 在编译原理中，一个算术表达式通过词法分析器形成词法单元，而后这些词法单元再通过语法分析器构建语法分析树，最终形成- 颗抽象的语法分析树。这里的词法分析器和语法分析器都可以看做是解释器
+2. 解释器模式(Interpreter Pattern) :是指给定一个语言(表达式)，定义它的文法的一种表示，并定义一个解释器，使用该解释器来解释语言中的句子(表达式)
+3. 应用场景
+   - 应用可以将一个需要解释执行的语言中的句子表示为一个抽象语法树
+   - 一些重复出现的问题可以用一种简单的语言来表达
+   - 一个简单语法需要解释的场景
+4. 这样的例子还有编译器、运算表达式计算、正则表达式、机器人等
+
+> 角色
+
+1. Context:是环境角色，含有解释器之外的全局信息
+2. AbstractExpression:抽象表达式，声明一个抽象的解释操作，这个方法为抽象语法树中的所有节点所共享
+3. TerminalExpression:为终结符表达式，实现与文法中的终结符相关的解释操作
+4. NonTermialExpression:为非终结符表达式，实现与文法中的非终结符相关的解释操作
+
+> 实现四则运算代码
+
+~~~java
+//加法解析器
+public class AddExpression extends SymbolExpression {
+
+    public AddExpression(Expression left, Expression right) {
+        super(left, right);
+    }
+
+    //处理相加
+    public int interpreter (HashMap<String,Integer> var) {
+        return super.left.interpreter(var) + super.right.interpreter(var);
+    }
+}
+~~~
+
+~~~java
+public class Calculator {
+    //定义表达式
+    private Expression expression;
+    //构造函数传参，并解析
+    public Calculator(String expStr){
+        //安排运算先后顺序
+        Stack<Expression> stack = new Stack<>();
+        //表达式拆分成字符数组
+        char[] charArray = expStr.toCharArray();
+        Expression left = null;
+        Expression right = null;
+        for (int i = 0; i < charArray.length; i++) {
+            switch (charArray[i]){
+                case '+':
+                    left = stack.pop();
+                    right = new VarExpression(String.valueOf(charArray[++i]));
+                    stack.push(new AddExpression(left,right));
+                    break;
+                case '-':
+                    left = stack.pop();
+                    right = new VarExpression(String.valueOf(charArray[++i]));
+                    stack.push(new SubExpression(left,right));
+                    break;
+                default:
+                    stack.push(new VarExpression(String.valueOf(charArray[i])));
+                    break;
+            }
+        }
+        //当遍历完整个charArray数组后，stack就得到最后Expression
+        this.expression = stack.pop();
+    }
+    public int run(HashMap<String, Integer> var) {
+        //最后将表达式和var绑定
+        return this.expression.interpreter(var);
+    }
+}
+~~~
+
+~~~java
+//抽象类表达式，通过HashMap键值对，可以获取到变量的值
+public abstract class Expression {
+    //解释公式和数值，key 就是公式(表达式)，参数[a,b,c] value 就是具体的值
+    //HashMap {a=10,b=20}
+    public abstract int interpreter(HashMap<String, Integer> var);
+}
+~~~
+
+~~~java
+public class SubExpression extends SymbolExpression {
+    public SubExpression(Expression left, Expression right) {
+        super(left, right);
+    }
+
+    public int interpreter (HashMap<String,Integer> var) {
+        return super.left.interpreter(var) - super.right.interpreter(var);
+    }
+}
+~~~
+
+~~~java
+//每个运算符号解析器，每个运算符号，都只和自己左右两个数字有关系
+//但左右两个数字有可能也是一个解析的结果，无论何种类型，都是Expression类的实现类
+public class SymbolExpression extends Expression{
+    protected Expression right;
+    protected Expression left;
+
+    public SymbolExpression(Expression left, Expression right) {
+        this.left = left;
+        this.right = right;
+    }
+
+    //因为SymbolExpression是让其子类来实现，因此inferpreter是默认实现
+    @Override
+    public int interpreter(HashMap<String, Integer> var) {
+        return 0;
+    }
+}
+~~~
+
+~~~java
+//变量的解析器
+public class VarExpression extends Expression {
+    private String key;
+
+    public VarExpression(String key) {
+        this.key = key;
+    }
+
+    //interpreter根据变量的名称返回对应值
+    @Override
+    public int interpreter(HashMap<String, Integer> var) {
+        return var.get(this.key);
+    }
+}
+~~~
+
+~~~java
+public class Client {
+    public static void main(String[] args) throws IOException {
+        String expStr = getExpStr();
+        HashMap<String, Integer> var = getValue(expStr);
+        Calculator calculator = new Calculator(expStr);
+        System.out.println("运算结果:"+ expStr + "=" + calculator.run(var));
+    }
+
+    //获取值映射
+    private static HashMap<String, Integer> getValue(String expStr) throws IOException {
+        HashMap<String, Integer> map = new HashMap<>();
+        for (char ch : expStr.toCharArray()){
+            if (ch != '+' && ch != '-'){
+                if (!map.containsKey(String.valueOf(ch))){
+                    System.out.print("请输入" + String.valueOf(ch) + "的值：");
+                    String in = (new BufferedReader(new InputStreamReader(System.in))).readLine();
+                    map.put(String.valueOf(ch), Integer.valueOf(in));
+                }
+            }
+        }
+        return map;
+    }
+    //获取表达式
+    public static String getExpStr() throws IOException {
+        System.out.print("请输入表达式: ");
+        return (new BufferedReader(new InputStreamReader(System.in))).readLine();
+    }
+}
+~~~
+
+> 源码
+
+Spring框架中的SpelExpressionParser就使用到了解释器模式
+
+> 注意细节
+
+1. 当有一个语言需要解释执行，可将该语言中的句子表示为一个抽象语法树就可以考虑使用解释器模式，让程序具有良好的扩展性
+2. 应用场景:编译器、运算表达式计算、正则表达式、机器人等
+3. 使用解释器可能带来的问题:解释器模式会引起类膨胀、解释器模式采用递归调用方法，将会导致调试非常复杂、效率可能降低.
+
 ### 20，状态模式
+
+> APP抽奖活动案例
+
+1. 假如每参加一次这个活动要
+   扣除用户50积分，中奖概率
+   是10%
+2. 奖品数量固定，抽完就不能
+   抽奖
+3. 活动有四个状态:可以抽奖、
+   不能抽奖、发放奖品和奖品
+   领完
+
+> 基本介绍
+
+1. 状态模式(State Pattern) :它主要用来解决对象在多种状态转换时，需要对外输出不同的行为的问题。状态和行为是一对应的，状态之间可以相互转换
+2. 当一个对象的内在状态改变时，允许改变其行为，这个对象看起来像是改变了其类
 
 ### 21，策略模式
 

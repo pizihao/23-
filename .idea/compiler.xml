@@ -9,20 +9,22 @@
         <module name="build" />
         <module name="observer" />
         <module name="decorator" />
+        <module name="Iterator" />
         <module name="umlall" />
         <module name="mediator" />
-        <module name="visitor" />
+        <module name="adapter" />
         <module name="composite" />
-        <module name="singleton" />
+        <module name="interpreter" />
         <module name="facade" />
         <module name="factory" />
         <module name="proxy" />
         <module name="command" />
+        <module name="memento" />
         <module name="birdge" />
-        <module name="adapter" />
+        <module name="visitor" />
         <module name="template" />
         <module name="flyweight" />
-        <module name="Iterator" />
+        <module name="singleton" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,9 +39,11 @@
       <module name="facade" target="1.8" />
       <module name="factory" target="1.8" />
       <module name="flyweight" target="1.8" />
+      <module name="interpreter" target="1.8" />
       <module name="Iterator" target="1.8" />
       <module name="liskovsubstitution" target="1.8" />
       <module name="mediator" target="1.8" />
+      <module name="memento" target="1.8" />
       <module name="observer" target="1.8" />
       <module name="openclosed" target="1.8" />
       <module name="prototype" target="1.8" />
