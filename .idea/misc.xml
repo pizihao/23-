@@ -31,6 +31,7 @@
         <option value="$PROJECT_DIR$/behavioralpatterns/interpreter/pom.xml" />
         <option value="$PROJECT_DIR$/behavioralpatterns/state/pom.xml" />
         <option value="$PROJECT_DIR$/behavioralpatterns/strategy/pom.xml" />
+        <option value="$PROJECT_DIR$/behavioralpatterns/Responsibilitychain/pom.xml" />
       </list>
     </option>
   </component>

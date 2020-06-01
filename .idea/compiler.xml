@@ -26,6 +26,7 @@
         <module name="template" />
         <module name="state" />
         <module name="flyweight" />
+        <module name="Responsibilitychain" />
         <module name="singleton" />
       </profile>
     </annotationProcessing>
@@ -50,6 +51,7 @@
       <module name="openclosed" target="1.8" />
       <module name="prototype" target="1.8" />
       <module name="proxy" target="1.8" />
+      <module name="Responsibilitychain" target="1.8" />
       <module name="segregationprinciple" target="1.8" />
       <module name="singleresponsibility" target="1.8" />
       <module name="singleton" target="1.8" />
