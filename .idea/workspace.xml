@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5531c6de-4e37-41f0-9750-34e41562756e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/Responsibilitychain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/Responsibilitychain/src/main/java/com/liu/Responsibilitychain/Approver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/Responsibilitychain/src/main/java/com/liu/Responsibilitychain/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/Responsibilitychain/src/main/java/com/liu/Responsibilitychain/CollegeApprover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/Responsibilitychain/src/main/java/com/liu/Responsibilitychain/DepartmentApprover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/Responsibilitychain/src/main/java/com/liu/Responsibilitychain/MasterApprover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/Responsibilitychain/src/main/java/com/liu/Responsibilitychain/PurchaseRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralpatterns/Responsibilitychain/src/main/java/com/liu/Responsibilitychain/SchoolMasterApprover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralpatterns/Responsibilitychain/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavioralpatterns/Responsibilitychain/src/main/java/com/liu/Responsibilitychain/PurchaseRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/behavioralpatterns/Responsibilitychain/src/main/java/com/liu/Responsibilitychain/PurchaseRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uml/umlall/src/main/java/com/liu/composition/Computer.uml" beforeDir="false" afterPath="$PROJECT_DIR$/uml/umlall/src/main/java/com/liu/composition/Computer.uml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +53,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/structuralpattern/proxy/src/main/java/com/liu/proxy/dynamicproxy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/behavioralpatterns/Responsibilitychain" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33923304" />
@@ -69,27 +64,27 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ideawenjain\DesignPattern\creationalpattern" />
-      <recent name="D:\ideawenjain\DesignPattern\uml\dependency\src\main\java\com\liu\dependency" />
-      <recent name="D:\ideawenjain\DesignPattern\uml" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ideawenjain\DesignPattern\structuralpattern\proxy\src\main\java\com\liu\proxy\dynamicproxy" />
-      <recent name="D:\ideawenjain\DesignPattern\structuralpattern\adapter\src\main\java\com\liu\adapter\objectadapter" />
-      <recent name="D:\ideawenjain\DesignPattern\creationalpattern\factory\src\main\java\com\liu\factory\abstractfactory\pizza" />
-      <recent name="D:\ideawenjain\DesignPattern\creationalpattern\factory\src\main\java\com\liu\factory\factorymethon" />
-      <recent name="D:\ideawenjain\DesignPattern\creationalpattern\singleton\src\main\java\com\liu\singleton\type08" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.liu.prototype.imporve" />
-      <recent name="com.liu.factory.factorymethon.order" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.liu.memento" />
       <recent name="com.liu.visitor" />
       <recent name="com.liu.demeter.demeter01" />
       <recent name="com.liu.dependenceinversion.dependence01" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideawenjain\DesignPattern\behavioralpatterns\Responsibilitychain" />
+      <recent name="D:\ideawenjain\DesignPattern\structuralpattern\proxy\src\main\java\com\liu\proxy\dynamicproxy" />
+      <recent name="D:\ideawenjain\DesignPattern\structuralpattern\adapter\src\main\java\com\liu\adapter\objectadapter" />
+      <recent name="D:\ideawenjain\DesignPattern\creationalpattern\factory\src\main\java\com\liu\factory\abstractfactory\pizza" />
+      <recent name="D:\ideawenjain\DesignPattern\creationalpattern\factory\src\main\java\com\liu\factory\factorymethon" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.liu.prototype.imporve" />
+      <recent name="com.liu.factory.factorymethon.order" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideawenjain\DesignPattern\creationalpattern" />
+      <recent name="D:\ideawenjain\DesignPattern\uml\dependency\src\main\java\com\liu\dependency" />
+      <recent name="D:\ideawenjain\DesignPattern\uml" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Client (4)">
@@ -225,11 +220,18 @@
       <workItem from="1590786670522" duration="12771000" />
       <workItem from="1590898922396" duration="18482000" />
       <workItem from="1590977425460" duration="19406000" />
+      <workItem from="1591067273486" duration="635000" />
+      <workItem from="1597585021861" duration="95000" />
+      <workItem from="1598712125125" duration="2816000" />
+      <workItem from="1598750055299" duration="714000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="25" key="#Project_Structure" timestamp="1590980274589">
@@ -240,50 +242,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="880" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1591022067064" />
-    <state x="777" y="154" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1589369561436">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="777" y="154" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1589369561436" />
     <state x="837" y="66" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1590813197872">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="837" y="66" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1366.728@0.0.1366.728" timestamp="1590813197872" />
-    <state x="440" y="301" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589871185987">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="440" y="301" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1589871185987" />
     <state x="827" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590994962072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="827" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1590994962072" />
-    <state x="401" y="246" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589947480564">
+    <state x="293" y="0" key="CommitChangelistDialog2" timestamp="1597585117246">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="401" y="246" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1589947480564" />
-    <state x="956" y="110" width="309" height="528" key="DiffContextDialog" timestamp="1589369532825">
+    <state x="293" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1597585117246" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1598714039110">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="956" y="110" width="309" height="528" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1589369532825" />
-    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1590286323363">
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598714039110" />
+    <state width="1323" height="124" key="GridCell.Tab.0.bottom" timestamp="1598715981931">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590286323363" />
-    <state width="563" height="122" key="GridCell.Tab.0.bottom" timestamp="1591025196742">
+    <state width="1323" height="124" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598715981931" />
+    <state width="1323" height="124" key="GridCell.Tab.0.center" timestamp="1598715981931">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="563" height="122" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591025196742" />
-    <state width="563" height="122" key="GridCell.Tab.0.center" timestamp="1591025196741">
+    <state width="1323" height="124" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598715981931" />
+    <state width="1323" height="124" key="GridCell.Tab.0.left" timestamp="1598715981931">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="563" height="122" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591025196741" />
-    <state width="563" height="122" key="GridCell.Tab.0.left" timestamp="1591025196741">
+    <state width="1323" height="124" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598715981931" />
+    <state width="1323" height="124" key="GridCell.Tab.0.right" timestamp="1598715981931">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="563" height="122" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591025196741" />
-    <state width="563" height="122" key="GridCell.Tab.0.right" timestamp="1591025196741">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="563" height="122" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591025196741" />
+    <state width="1323" height="124" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598715981931" />
     <state width="523" height="219" key="GridCell.Tab.1.bottom" timestamp="1590934494332">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -304,10 +294,6 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590303801935" />
-    <state x="847" y="154" key="chooseDestDirectoryDialog" timestamp="1589369570892">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="847" y="154" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1589369570892" />
     <state x="904" y="85" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590314184938">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

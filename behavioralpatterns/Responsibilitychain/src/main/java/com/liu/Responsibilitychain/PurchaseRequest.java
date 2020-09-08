@@ -4,6 +4,7 @@ package com.liu.Responsibilitychain;
  * @author shidacaizi
  * @date 2020/6/1 22:13
  */
+//表示一个请求
 public class PurchaseRequest {
     private int type = 0; //请求类型
     private float price = 0.0f;
