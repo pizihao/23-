@@ -1264,7 +1264,7 @@ public class Phone {
 
 > 介绍
 
-- 基本思路和类的适配器模式相同，只是将Adapter类作修改，不是继承src类，而是持有SrC类的实例，以解决兼容性的问题。即:持有src类，实现dst类接口，完成Src->dst的适配
+- 基本思路和类的适配器模式相同，只是将Adapter类作修改，不是继承src类，而是持有Src类的实例，以解决兼容性的问题。即:持有src类，实现dst类接口，完成Src->dst的适配
 - 根据“合成复用原则”，在系统中尽量使用关联关系来替代继承关系。
 - 对象适配器模式是适配器模式常用的一种
 
@@ -1342,7 +1342,7 @@ public class Phone {
 > 介绍
 
 1. 一些书籍称为:适配器模式(Default Adapter Pattern)或缺省适配器模式。
-2. 当不需要全部实现接口提供的方法时，可先设计- -个抽象类实现接口，并为该接口中每个方法提供一个默认实现(空方法)，那么该抽象类的子类可有选择地覆盖父类的某些方法来实现需求
+2. 当不需要全部实现接口提供的方法时，可先设计一个抽象类实现接口，并为该接口中每个方法提供一个默认实现(空方法)，那么该抽象类的子类可有选择地覆盖父类的某些方法来实现需求
 3. 适用于一个接口不想使用其所有的方法的情况。
 
 #### (4)，Spring MVC源码
@@ -2225,7 +2225,7 @@ JDK中的Integer 使用的是享元模式
 
 > 注意细节
 
-1. 在享元模式这样理解， 剪"就表示共享， 元表示对象
+1. 在享元模式这样理解， 享就表示共享， 元表示对象
 2. 系统中有大量对象，这些对象消耗大量内存，并且对象的状态大部分可以外部化时,我们就可以考虑选用享元模式
 3. 用唯一标识码判断，如果在内存中有，则返回这个唯一标识码所标识的对象，用HashMap/HashTable存储
 4. 享元模式大大减少了对象的创建，降低了程序内在的占用，提高效率
@@ -3463,6 +3463,8 @@ public class Client {
 
 > 代码
 
+Caretaker.java
+
 ~~~java
 public class Caretaker {
     private List<Memento> mementoList = new ArrayList<>();
@@ -3476,6 +3478,7 @@ public class Caretaker {
     }
 }
 ~~~
+
 
 ~~~java
 public class Originator {
@@ -3499,7 +3502,7 @@ public class Originator {
     }
 }
 ~~~
-
+Memento.java
 ~~~java
 public class Memento {
     private String state; //状态信息
@@ -3514,7 +3517,7 @@ public class Memento {
     }
 }
 ~~~
-
+Client.java
 ~~~java
 public class Client {
     public static void main(String[] args) {
@@ -3548,6 +3551,8 @@ public class Client {
 
 > 游戏角色恢复实例代码
 
+Menento.java
+
 ~~~java
 public class Memento {
     //攻击力
@@ -3577,7 +3582,7 @@ public class Memento {
     }
 }
 ~~~
-
+Caretaker.java
 ~~~java
 //守护者对象，保存游戏角色状态
 public class Caretaker {
@@ -3613,7 +3618,7 @@ public class Caretaker {
     }
 }
 ~~~
-
+GameRole.java
 ~~~java
 public class GameRole {
     private int vit;
@@ -3652,7 +3657,7 @@ public class GameRole {
     }
 }
 ~~~
-
+Client.java
 ~~~java
 public class Client {
     public static void main(String[] args) {
