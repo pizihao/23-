@@ -6,60 +6,60 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="build" />
-        <module name="observer" />
+        <module name="birdge" />
+        <module name="template" />
+        <module name="singleton" />
+        <module name="factory" />
         <module name="decorator" />
-        <module name="Iterator" />
+        <module name="adapter" />
+        <module name="facade" />
+        <module name="memento" />
+        <module name="interpreter" />
+        <module name="flyweight" />
+        <module name="command" />
+        <module name="observer" />
+        <module name="proxy" />
+        <module name="Responsibilitychain" />
         <module name="umlall" />
+        <module name="build" />
+        <module name="composite" />
+        <module name="Iterator" />
+        <module name="state" />
         <module name="strategy" />
         <module name="mediator" />
-        <module name="adapter" />
-        <module name="composite" />
-        <module name="interpreter" />
-        <module name="facade" />
-        <module name="factory" />
-        <module name="proxy" />
-        <module name="command" />
-        <module name="memento" />
-        <module name="birdge" />
         <module name="visitor" />
-        <module name="template" />
-        <module name="state" />
-        <module name="flyweight" />
-        <module name="Responsibilitychain" />
-        <module name="singleton" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="adapter" target="1.8" />
-      <module name="birdge" target="1.8" />
-      <module name="build" target="1.8" />
-      <module name="command" target="1.8" />
-      <module name="composite" target="1.8" />
-      <module name="decorator" target="1.8" />
+      <module name="adapter" target="1.5" />
+      <module name="birdge" target="1.5" />
+      <module name="build" target="1.5" />
+      <module name="command" target="1.5" />
+      <module name="composite" target="1.5" />
+      <module name="decorator" target="1.5" />
       <module name="demeter" target="1.8" />
       <module name="dependenceinversion" target="1.8" />
-      <module name="facade" target="1.8" />
-      <module name="factory" target="1.8" />
-      <module name="flyweight" target="1.8" />
-      <module name="interpreter" target="1.8" />
-      <module name="Iterator" target="1.8" />
+      <module name="facade" target="1.5" />
+      <module name="factory" target="1.5" />
+      <module name="flyweight" target="1.5" />
+      <module name="interpreter" target="1.5" />
+      <module name="Iterator" target="1.5" />
       <module name="liskovsubstitution" target="1.8" />
-      <module name="mediator" target="1.8" />
-      <module name="memento" target="1.8" />
-      <module name="observer" target="1.8" />
+      <module name="mediator" target="1.5" />
+      <module name="memento" target="1.5" />
+      <module name="observer" target="1.5" />
       <module name="openclosed" target="1.8" />
       <module name="prototype" target="1.8" />
-      <module name="proxy" target="1.8" />
-      <module name="Responsibilitychain" target="1.8" />
+      <module name="proxy" target="1.5" />
+      <module name="Responsibilitychain" target="1.5" />
       <module name="segregationprinciple" target="1.8" />
       <module name="singleresponsibility" target="1.8" />
-      <module name="singleton" target="1.8" />
-      <module name="state" target="1.8" />
-      <module name="strategy" target="1.8" />
-      <module name="template" target="1.8" />
+      <module name="singleton" target="1.5" />
+      <module name="state" target="1.5" />
+      <module name="strategy" target="1.5" />
+      <module name="template" target="1.5" />
       <module name="umlall" target="1.8" />
-      <module name="visitor" target="1.8" />
+      <module name="visitor" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

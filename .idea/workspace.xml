@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5531c6de-4e37-41f0-9750-34e41562756e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structuralpattern/adapter/src/main/java/com/liu/adapter/classadapter/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/structuralpattern/adapter/src/main/java/com/liu/adapter/classadapter/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structuralpattern/flyweight/src/main/java/com/liu/flyweight/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/structuralpattern/flyweight/src/main/java/com/liu/flyweight/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +28,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/maven/apache-maven-3.6.0" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../maven/apache-maven-3.6.0" />
         <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -57,7 +55,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33923304" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -152,6 +150,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Client" />
@@ -226,7 +235,8 @@
       <workItem from="1600432912319" duration="2393000" />
       <workItem from="1600520699052" duration="3534000" />
       <workItem from="1600572313154" duration="3139000" />
-      <workItem from="1600610230991" duration="433000" />
+      <workItem from="1600610230991" duration="1300000" />
+      <workItem from="1600647828340" duration="439000" />
     </task>
     <servers />
   </component>
@@ -281,5 +291,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600437973127" />
+    <state x="121" y="13" key="SettingsEditor" timestamp="1600648226880">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="121" y="13" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600648226880" />
   </component>
 </project>
