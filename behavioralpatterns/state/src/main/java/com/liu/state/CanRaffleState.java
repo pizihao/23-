@@ -14,10 +14,12 @@ public class CanRaffleState extends State {
         this.raffleActivity = raffleActivity;
     }
 
+    @Override
     public void deductMoney(){
         System.out.println("已经扣过积分");
     }
 
+    @Override
     public boolean raffle(){
         System.out.println("正在抽奖，请稍等");
         Random random = new Random();

@@ -10,7 +10,7 @@ public class Client {
         RaffleActivity activity = new RaffleActivity(1);
 
         //连续抽奖3次
-        for (int i = 0; i < 10; i++){
+        for (int i = 0; i < 20; i++){
             System.out.println("====第" + (i+1) + "次抽奖====");
             //参加抽奖 第一步点击扣除积分
             activity.debuctMoney();

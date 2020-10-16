@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5531c6de-4e37-41f0-9750-34e41562756e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/DesignPattern.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavioralpatterns/state/src/main/java/com/liu/state/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/behavioralpatterns/state/src/main/java/com/liu/state/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +32,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../../maven/apache-maven-3.6.0" />
+        <option name="mavenHome" value="D:\Software\idea\idea\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
         <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -46,11 +50,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/behavioralpatterns/Responsibilitychain" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33923304" />
@@ -84,7 +90,7 @@
       <recent name="D:\ideawenjain\DesignPattern\uml" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Client (2)">
     <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liu.state.Client" />
       <module name="state" />
@@ -150,39 +156,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
-        <item itemvalue="Application.Client (2)" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -237,11 +234,13 @@
       <workItem from="1600572313154" duration="3139000" />
       <workItem from="1600610230991" duration="1300000" />
       <workItem from="1600647828340" duration="439000" />
+      <workItem from="1602554561599" duration="358000" />
+      <workItem from="1602811102024" duration="804000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
@@ -259,22 +258,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598714039110" />
-    <state width="1322" height="180" key="GridCell.Tab.0.bottom" timestamp="1600528590936">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="561" key="GridCell.Tab.0.bottom" timestamp="1602812165430">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1322" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600528590936" />
-    <state width="1322" height="180" key="GridCell.Tab.0.center" timestamp="1600528590936">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="561" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.920@0.0.1920.1040" timestamp="1602812165430" />
+    <state width="1877" height="561" key="GridCell.Tab.0.center" timestamp="1602812165430">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1322" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600528590936" />
-    <state width="1322" height="180" key="GridCell.Tab.0.left" timestamp="1600528590935">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="561" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.920@0.0.1920.1040" timestamp="1602812165430" />
+    <state width="1877" height="561" key="GridCell.Tab.0.left" timestamp="1602812165430">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1322" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600528590935" />
-    <state width="1322" height="180" key="GridCell.Tab.0.right" timestamp="1600528590936">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="561" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.920@0.0.1920.1040" timestamp="1602812165430" />
+    <state width="1877" height="561" key="GridCell.Tab.0.right" timestamp="1602812165430">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1322" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600528590936" />
+    <state width="1877" height="561" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.920@0.0.1920.1040" timestamp="1602812165430" />
     <state width="1322" height="222" key="GridCell.Tab.1.bottom" timestamp="1600437973127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
